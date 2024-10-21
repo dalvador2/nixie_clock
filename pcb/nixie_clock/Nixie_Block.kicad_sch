@@ -390,7 +390,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -13.97 -8.89 0)
 					(length 2.54)
 					(name "Cath_8"
@@ -408,7 +408,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -13.97 -6.35 0)
 					(length 2.54)
 					(name "Cath_9"
@@ -426,7 +426,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -13.97 -3.81 0)
 					(length 2.54)
 					(name "Cath_0"
@@ -444,7 +444,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -13.97 -1.27 0)
 					(length 2.54)
 					(name "Comma_R"
@@ -462,7 +462,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 13.97 -1.27 180)
 					(length 2.54)
 					(name "Comma_L"
@@ -480,7 +480,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 13.97 -3.81 180)
 					(length 2.54)
 					(name "Cath_1"
@@ -498,7 +498,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 13.97 -6.35 180)
 					(length 2.54)
 					(name "Cath_2"
@@ -516,7 +516,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 13.97 -8.89 180)
 					(length 2.54)
 					(name "Cath_3"
@@ -534,7 +534,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 13.97 -13.97 180)
 					(length 2.54)
 					(name "Cath_5"
@@ -552,7 +552,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 13.97 -11.43 180)
 					(length 2.54)
 					(name "Cath_4"
@@ -570,7 +570,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -13.97 -13.97 0)
 					(length 2.54)
 					(name "Cath_6"
@@ -588,7 +588,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -13.97 -11.43 0)
 					(length 2.54)
 					(name "Cath_7"
@@ -2571,7 +2571,7 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/985d4fae-5358-43e7-8a6d-ac00b872b53c"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)

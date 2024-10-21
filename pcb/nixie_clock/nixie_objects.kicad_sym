@@ -81,7 +81,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -13.97 -8.89 0)
 				(length 2.54)
 				(name "Cath_8"
@@ -99,7 +99,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -13.97 -6.35 0)
 				(length 2.54)
 				(name "Cath_9"
@@ -117,7 +117,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -13.97 -3.81 0)
 				(length 2.54)
 				(name "Cath_0"
@@ -135,7 +135,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "Comma_R"
@@ -153,7 +153,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "Comma_L"
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 13.97 -3.81 180)
 				(length 2.54)
 				(name "Cath_1"
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 13.97 -6.35 180)
 				(length 2.54)
 				(name "Cath_2"
@@ -207,7 +207,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 13.97 -8.89 180)
 				(length 2.54)
 				(name "Cath_3"
@@ -225,7 +225,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 13.97 -13.97 180)
 				(length 2.54)
 				(name "Cath_5"
@@ -243,7 +243,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 13.97 -11.43 180)
 				(length 2.54)
 				(name "Cath_4"
@@ -261,7 +261,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -13.97 -13.97 0)
 				(length 2.54)
 				(name "Cath_6"
@@ -279,7 +279,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -13.97 -11.43 0)
 				(length 2.54)
 				(name "Cath_7"

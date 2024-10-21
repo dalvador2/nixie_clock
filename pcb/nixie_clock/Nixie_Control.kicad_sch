@@ -1641,7 +1641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0057eed0-24c8-4f7d-b225-b3212b4dc0a3")
-		(property "Reference" "U13"
+		(property "Reference" "U28"
 			(at 96.1741 93.98 0)
 			(effects
 				(font
@@ -1659,7 +1659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.8x4.8mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
 			(at 94.615 144.145 0)
 			(effects
 				(font
@@ -1809,7 +1809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15e02bc1-0231-460d-b436-dbdcab9ca9ca")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR032"
 			(at 73.66 118.11 0)
 			(effects
 				(font
@@ -1874,6 +1874,10 @@
 					(reference "#PWR014")
 					(unit 1)
 				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2"
+					(reference "#PWR0102")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1887,7 +1891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "222431ae-a1f4-485a-958f-3d87a8d062fc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR034"
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -1953,7 +1957,7 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1969,7 +1973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ac8cb7-6fc3-46f3-93f6-bf99fd40270c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR033"
 			(at 91.44 161.29 0)
 			(effects
 				(font
@@ -2035,7 +2039,7 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
