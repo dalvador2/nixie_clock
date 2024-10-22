@@ -1292,7 +1292,7 @@
 		)
 		(uuid "fb6c453b-1def-4f12-a008-0b2d5e5cb082")
 	)
-	(hierarchical_label "Nixie_EN"
+	(hierarchical_label "Nixie_Clk"
 		(shape output)
 		(at 123.19 60.96 180)
 		(fields_autoplaced yes)
