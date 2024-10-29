@@ -818,6 +818,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 133.35) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315024d0-7e32-48f5-8327-ea7eda757e1c")
+	)
+	(wire
+		(pts
 			(xy 107.95 129.54) (xy 107.95 132.08)
 		)
 		(stroke
@@ -1028,6 +1038,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 44.45) (xy 29.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5817bfed-3299-459c-86bf-e5214ee5c81c")
+	)
+	(wire
+		(pts
 			(xy 90.17 123.19) (xy 90.17 100.33)
 		)
 		(stroke
@@ -1035,6 +1055,16 @@
 			(type default)
 		)
 		(uuid "58376bdc-5cdb-43a4-9b3d-fd0ad9206327")
+	)
+	(wire
+		(pts
+			(xy 54.61 133.35) (xy 54.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592833d3-d47f-464c-9260-b3538006a1cc")
 	)
 	(wire
 		(pts
@@ -1505,6 +1535,16 @@
 			(type default)
 		)
 		(uuid "adc65859-982f-404b-bc8f-d34015fd0027")
+	)
+	(wire
+		(pts
+			(xy 36.83 44.45) (xy 29.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fcf094-10a0-4892-9f48-818657138099")
 	)
 	(wire
 		(pts
@@ -2838,6 +2878,16 @@
 			)
 			(uuid "7dffa892-4c9f-483c-a39b-17efeb8da143")
 		)
+		(pin "HV_EN" output
+			(at 36.83 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee26f6a7-2239-4504-8e38-6f60b3f7ebb0")
+		)
 		(instances
 			(project "nixie_clock"
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947"
@@ -2875,6 +2925,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "HV_EN" input
+			(at 54.61 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ed66c38-3ab1-4d72-8e15-de0d4112e9bd")
 		)
 		(instances
 			(project "nixie_clock"

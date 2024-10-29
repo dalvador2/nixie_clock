@@ -1510,7 +1510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0057eed0-24c8-4f7d-b225-b3212b4dc0a3")
-		(property "Reference" "U13"
+		(property "Reference" "U41"
 			(at 96.1741 93.98 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15e02bc1-0231-460d-b436-dbdcab9ca9ca")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR048"
 			(at 73.66 118.11 0)
 			(effects
 				(font
@@ -1760,7 +1760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "222431ae-a1f4-485a-958f-3d87a8d062fc")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR050"
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -1842,7 +1842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ac8cb7-6fc3-46f3-93f6-bf99fd40270c")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR049"
 			(at 91.44 161.29 0)
 			(effects
 				(font
@@ -1925,8 +1925,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "985d4fae-5358-43e7-8a6d-ac00b872b53c")
-		(property "Sheetname" "Nixie_Block"
+		(uuid "7df06b0c-fa5e-46fb-be10-952a84edd2fe")
+		(property "Sheetname" "Nixie_Block2"
 			(at 132.08 56.4384 0)
 			(effects
 				(font
@@ -1952,7 +1952,7 @@
 				)
 				(justify right)
 			)
-			(uuid "5511259f-046d-4939-96a3-7c1d12b7617d")
+			(uuid "7385a483-4117-4997-80eb-7c5b01246a69")
 		)
 		(pin "Cath_6" input
 			(at 176.53 63.5 0)
@@ -1962,7 +1962,7 @@
 				)
 				(justify right)
 			)
-			(uuid "55fb3752-b596-45c3-b667-a39022b7ea7a")
+			(uuid "7bb6c5b6-7f0f-4723-ba08-00b21471de83")
 		)
 		(pin "Cath_8" input
 			(at 176.53 68.58 0)
@@ -1972,7 +1972,7 @@
 				)
 				(justify right)
 			)
-			(uuid "0f9c8bda-24d7-4e96-a436-5fab00acd4dd")
+			(uuid "4cb0bf88-2aad-4b75-a525-3444e195e0d3")
 		)
 		(pin "Cath_7" input
 			(at 176.53 66.04 0)
@@ -1982,7 +1982,7 @@
 				)
 				(justify right)
 			)
-			(uuid "c2b01c38-187e-4f17-8d94-23d502d12072")
+			(uuid "b6ea2514-3e1b-4306-8fb2-f04ff481e55f")
 		)
 		(pin "Comma_R" input
 			(at 176.53 77.47 0)
@@ -1992,7 +1992,7 @@
 				)
 				(justify right)
 			)
-			(uuid "48b6a173-1fa1-4247-8b51-c66a504b5a70")
+			(uuid "76574969-2046-4508-b407-d8a802b240ee")
 		)
 		(pin "Cath_0" input
 			(at 132.08 60.96 180)
@@ -2002,7 +2002,7 @@
 				)
 				(justify left)
 			)
-			(uuid "063feed2-2bfd-4a2e-ab82-22b626ce9a70")
+			(uuid "fdda14ab-e184-406e-8cc1-20f784e37a10")
 		)
 		(pin "Cath_2" input
 			(at 132.08 66.04 180)
@@ -2012,7 +2012,7 @@
 				)
 				(justify left)
 			)
-			(uuid "a1fd30ce-7566-4b0f-ba5d-5d41f5370a8a")
+			(uuid "de344488-92ab-4b50-98ec-7b77d1c50c9c")
 		)
 		(pin "Comma_L" input
 			(at 132.08 77.47 180)
@@ -2022,7 +2022,7 @@
 				)
 				(justify left)
 			)
-			(uuid "ba1b0ba6-cd99-4fac-a5d1-3124c5fe69f2")
+			(uuid "1a24827c-a102-417a-8eeb-b404cdb264ed")
 		)
 		(pin "Cath_1" input
 			(at 132.08 63.5 180)
@@ -2032,7 +2032,7 @@
 				)
 				(justify left)
 			)
-			(uuid "0d31bf0a-4594-4f0c-a46a-ec17450ed78c")
+			(uuid "7190293b-d23a-454e-b152-ea0a5fe2952c")
 		)
 		(pin "Cath_3" input
 			(at 132.08 68.58 180)
@@ -2042,7 +2042,7 @@
 				)
 				(justify left)
 			)
-			(uuid "17453806-0c65-42a5-8521-88a891f0ee27")
+			(uuid "c33be7eb-afb1-469d-af46-bc7b41dfb635")
 		)
 		(pin "Cath_4" input
 			(at 132.08 71.12 180)
@@ -2052,7 +2052,7 @@
 				)
 				(justify left)
 			)
-			(uuid "ed8ee8de-0fcf-41e1-b321-b3a0b36df126")
+			(uuid "f36a12f8-faa9-4cff-bef7-565be5e075c8")
 		)
 		(pin "Cath_5" input
 			(at 176.53 60.96 0)
@@ -2062,7 +2062,7 @@
 				)
 				(justify right)
 			)
-			(uuid "dc55f350-7308-4f03-922e-c8d6a3b7c44f")
+			(uuid "b17e0d81-13d3-461d-b394-547d373ecb31")
 		)
 		(instances
 			(project "nixie_clock"

@@ -154,4 +154,6 @@
   (lib (name "nixie_objects")(type "KiCad")(uri "${KIPRJMOD}/nixie_objects.kicad_sym")(options "")(descr ""))
   (lib (name "PCA9685BS_118")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/PCA9685BS/PCA9685BS_118.kicad_sym")(options "")(descr ""))
   (lib (name "RPi_Pico")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/PicoW/RPi_Pico.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-10-24_20-25-09")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/LT3759EMSE/2024-10-24_20-25-09.kicad_sym")(options "")(descr ""))
+  (lib (name "750312367")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/750312367/750312367.kicad_sym")(options "")(descr ""))
 )

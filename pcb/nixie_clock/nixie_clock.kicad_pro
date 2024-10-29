@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "height": 3.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -229,7 +229,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1016000|342900|57dc541b-6ea4-4754-a1c1-8ac8ae058dc1|00000000-0000-0000-0000-000000000000|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|",
+      "power_pin_not_driven|736600|1003300|e0c74655-55eb-40c1-991c-363e10a30142|00000000-0000-0000-0000-000000000000|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|",
+      "power_pin_not_driven|927100|876300|d0157bd7-3406-4a5d-b947-3308f512e816|00000000-0000-0000-0000-000000000000|/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08|/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08|"
+    ],
     "meta": {
       "version": 0
     },
@@ -639,40 +643,40 @@
       "Nixie_Control"
     ],
     [
-      "985d4fae-5358-43e7-8a6d-ac00b872b53c",
-      "Nixie_Block"
+      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
+      "Nixie_Block2"
     ],
     [
       "a61878f4-fb63-4398-9100-0e1bf2761067",
       "Nixie_Control1"
     ],
     [
-      "985d4fae-5358-43e7-8a6d-ac00b872b53c",
-      "Nixie_Block"
+      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
+      "Nixie_Block2"
     ],
     [
       "5937c759-2783-41e4-ac70-9109e1e46ac7",
       "Nixie_Control2"
     ],
     [
-      "985d4fae-5358-43e7-8a6d-ac00b872b53c",
-      "Nixie_Block"
+      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
+      "Nixie_Block2"
     ],
     [
       "3d49473a-c419-407e-b38c-0d0a65770e14",
       "Nixie_Control3"
     ],
     [
-      "985d4fae-5358-43e7-8a6d-ac00b872b53c",
-      "Nixie_Block"
+      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
+      "Nixie_Block2"
     ],
     [
       "81c2040b-c2c5-41b1-9f2f-8a8d9d460681",
       "Nixie_Control4"
     ],
     [
-      "985d4fae-5358-43e7-8a6d-ac00b872b53c",
-      "Nixie_Block"
+      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
+      "Nixie_Block2"
     ],
     [
       "533fde0d-1575-4393-a304-4d0f69f083bc",
