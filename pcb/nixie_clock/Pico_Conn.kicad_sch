@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -13.97 27.94 0)
+			(property "Reference" "U14"
+				(at 0 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,14 +21,14 @@
 				)
 			)
 			(property "Value" "PicoW"
-				(at 0 19.05 0)
+				(at 0 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RPi_PicoW:RPi_Pico_SMD_TH"
+			(property "Footprint" "RPi_Pico:RPi_PicoW_SMD"
 				(at 0 0 90)
 				(effects
 					(font
@@ -637,7 +637,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 17.78 19.05 180)
 					(length 2.54)
 					(name "GND"
@@ -691,7 +691,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 17.78 24.13 180)
 					(length 2.54)
 					(name "VBUS"
@@ -702,60 +702,6 @@
 						)
 					)
 					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -29.21 90)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -29.21 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -29.21 90)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1566,7 +1512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi_PicoW:RPi_Pico_SMD_TH"
+		(property "Footprint" "RPi_Pico:RPi_PicoW_SMD"
 			(at 146.05 77.47 90)
 			(effects
 				(font
@@ -1614,9 +1560,6 @@
 		(pin "37"
 			(uuid "8ba08bee-4210-458d-8725-174ff954c880")
 		)
-		(pin "42"
-			(uuid "ec028c44-1891-471d-836b-cc1643c648eb")
-		)
 		(pin "40"
 			(uuid "bb3c783b-9e4f-4ad2-8ca5-9d5ae4cfc335")
 		)
@@ -1629,14 +1572,8 @@
 		(pin "36"
 			(uuid "cf313946-3e3c-4e97-884d-1c667c544a0b")
 		)
-		(pin "41"
-			(uuid "0b8032ab-b2d5-425e-8aab-3b3fe65ee17f")
-		)
 		(pin "9"
 			(uuid "6fd6fd81-d26b-45b9-9d87-3b0f99a41178")
-		)
-		(pin "43"
-			(uuid "106ea6a8-c931-4e0e-b346-965a431bdcb2")
 		)
 		(pin "13"
 			(uuid "e9191769-e131-406b-ae97-ed43747e6f9a")

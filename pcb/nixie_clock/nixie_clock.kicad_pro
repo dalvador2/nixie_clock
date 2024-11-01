@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 3.0,
-          "width": 2.0
+          "drill": 0.0,
+          "height": 2.9464,
+          "width": 1.7526
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -128,7 +128,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -230,9 +230,7 @@
   },
   "erc": {
     "erc_exclusions": [
-      "power_pin_not_driven|1016000|342900|57dc541b-6ea4-4754-a1c1-8ac8ae058dc1|00000000-0000-0000-0000-000000000000|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|",
-      "power_pin_not_driven|736600|1003300|e0c74655-55eb-40c1-991c-363e10a30142|00000000-0000-0000-0000-000000000000|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe|",
-      "power_pin_not_driven|927100|876300|d0157bd7-3406-4a5d-b947-3308f512e816|00000000-0000-0000-0000-000000000000|/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08|/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08|"
+      "pin_to_pin|1638300|584200|489a6f5a-562c-45ad-8837-afe97fb64c1f|b5514281-e3ad-4b66-9c7b-b5b8ec1bd3d1|/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b|/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b|/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08"
     ],
     "meta": {
       "version": 0

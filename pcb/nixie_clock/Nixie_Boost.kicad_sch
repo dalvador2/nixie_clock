@@ -294,24 +294,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "*PGOOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 71.12 -15.24 180)
 					(length 7.62)
@@ -359,6 +341,26 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT3759EMSE-TRPBF_1_1"
+				(pin open_collector line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "*PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1511,6 +1513,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 66.04 125.73)
@@ -1535,6 +1633,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36f6ece1-8bbf-49f9-aa49-2bd1d0d7d4f4")
+	)
+	(junction
+		(at 254 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e4d1a54-bb9f-41e8-b737-98fc4360d7a0")
 	)
 	(junction
 		(at 102.87 92.71)
@@ -1682,6 +1786,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 100.33) (xy 257.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12099f2d-f891-477e-b78c-a90ffb8c4c81")
+	)
+	(wire
+		(pts
 			(xy 140.97 135.89) (xy 144.78 135.89)
 		)
 		(stroke
@@ -1742,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 100.33) (xy 257.81 100.33)
+			(xy 246.38 100.33) (xy 254 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "750312367"
+		(property "Footprint" "750312367:750312367"
 			(at 166.37 5.41 0)
 			(effects
 				(font
@@ -3713,6 +3827,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 254 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d07fe9d3-d532-4632-b31b-647bfc3c154e")
+		(property "Reference" "#FLG01"
+			(at 254 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 254 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fee376f-47dd-4c55-abed-9eec3ee4586c")
+		)
+		(instances
+			(project ""
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 111.76 96.52 0)
 		(unit 1)
@@ -3940,7 +4120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSOP-12_MSE_LIT"
+		(property "Footprint" "LT3759EMSE:MSOP-12_MSE_LIT"
 			(at 69.85 123.19 0)
 			(effects
 				(font

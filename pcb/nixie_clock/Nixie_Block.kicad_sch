@@ -1609,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 22.606 129.54 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 22.606 143.51 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 22.606 157.48 0)
 			(effects
 				(font
@@ -2150,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 180.594 157.48 0)
 			(effects
 				(font
@@ -2330,7 +2330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 180.594 143.51 0)
 			(effects
 				(font
@@ -3033,7 +3033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 22.606 87.63 0)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 180.594 129.54 0)
 			(effects
 				(font
@@ -3400,7 +3400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 180.594 115.57 0)
 			(effects
 				(font
@@ -3870,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 22.606 101.6 0)
 			(effects
 				(font
@@ -4053,7 +4053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 180.594 87.63 0)
 			(effects
 				(font
@@ -4146,7 +4146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 22.606 115.57 0)
 			(effects
 				(font
@@ -4680,7 +4680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
 			(at 180.594 101.6 0)
 			(effects
 				(font
