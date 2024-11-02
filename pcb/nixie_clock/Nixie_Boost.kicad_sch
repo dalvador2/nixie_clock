@@ -1653,12 +1653,6 @@
 		(uuid "5ca4bf9c-2505-40b9-982d-e1b7bc099bab")
 	)
 	(junction
-		(at 161.29 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e2e04f2-7130-40b1-9845-18f8e666fb03")
-	)
-	(junction
 		(at 246.38 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1719,12 +1713,6 @@
 		(uuid "e18ca4d4-cd7e-4e26-8e07-726f6ca4bffc")
 	)
 	(junction
-		(at 220.98 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdbf6371-c2fc-47ac-b4c1-3d811033ae61")
-	)
-	(junction
 		(at 231.14 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1733,6 +1721,16 @@
 	(no_connect
 		(at 220.98 97.79)
 		(uuid "9ec3c08d-93e6-4479-9f81-30f0104b8487")
+	)
+	(wire
+		(pts
+			(xy 236.22 113.03) (xy 236.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fad89e-1353-4665-b438-859e63dea1fe")
 	)
 	(wire
 		(pts
@@ -1906,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 113.03) (xy 86.36 113.03)
+			(xy 86.36 113.03) (xy 236.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2126,16 +2124,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 220.98 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f985d2c-1809-45fe-82ee-9044dda92ad1")
-	)
-	(wire
-		(pts
 			(xy 111.76 92.71) (xy 143.51 92.71)
 		)
 		(stroke
@@ -2143,16 +2131,6 @@
 			(type default)
 		)
 		(uuid "8c3b4ed4-aefe-4a8a-8f3f-7c0bed1b022f")
-	)
-	(wire
-		(pts
-			(xy 158.75 100.33) (xy 161.29 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6b26e7-af8b-4bd1-8337-661423f44598")
 	)
 	(wire
 		(pts
@@ -2375,6 +2353,75 @@
 			(justify left)
 		)
 		(uuid "668b40bc-ce48-4ef6-b22d-ad3af887be41")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 223.52 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fcf525a-ddc0-4c73-80d7-6b889674475b")
+		(property "Netclass" "power"
+			(at 224.2185 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 161.29 109.22 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97c2509b-2d5d-44cd-90f1-564b8b447981")
+		(property "Netclass" "power"
+			(at 158.75 108.5215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 154.94 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9cbc1539-b6a9-4d9d-a0be-6f06ae1b8707")
+		(property "Netclass" "power"
+			(at 155.6385 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2677,7 +2724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN014-80YL.pdf"
 			(at 158.75 135.89 0)
 			(effects
 				(font

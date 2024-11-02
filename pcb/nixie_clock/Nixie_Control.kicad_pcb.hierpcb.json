@@ -1,0 +1,18 @@
+{
+  "subpcb": {
+    "Nixie_Control.kicad_pcb": {
+      "anchor": "V1"
+    },
+    "Nixie_Block.kicad_pcb": {
+      "anchor": "V1"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/7df06b0c-fa5e-46fb-be10-952a84edd2fe": {
+      "checked": true
+    }
+  }
+}

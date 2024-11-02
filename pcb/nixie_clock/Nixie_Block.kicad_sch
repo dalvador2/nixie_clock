@@ -1402,6 +1402,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1487,6 +1499,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R4")
 					(unit 1)
 				)
@@ -1577,6 +1601,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R9")
 					(unit 1)
 				)
@@ -1674,6 +1710,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1767,6 +1815,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1853,6 +1913,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R12")
 					(unit 1)
 				)
@@ -1950,6 +2022,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2032,6 +2116,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2118,6 +2214,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2215,6 +2323,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2298,6 +2418,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2395,6 +2527,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2478,6 +2622,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2566,6 +2722,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R1")
 					(unit 1)
 				)
@@ -2660,6 +2828,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2750,6 +2930,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2832,6 +3024,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2920,6 +3124,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3002,6 +3218,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3098,6 +3326,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3183,6 +3423,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R5")
 					(unit 1)
 				)
@@ -3281,6 +3533,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3367,6 +3631,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R11")
 					(unit 1)
 				)
@@ -3465,6 +3741,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3547,6 +3835,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -3636,6 +3936,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3719,6 +4031,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3842,6 +4166,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3935,6 +4271,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4020,6 +4368,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R3")
 					(unit 1)
 				)
@@ -4118,6 +4478,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4211,6 +4583,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4294,6 +4678,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -4387,6 +4783,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4470,6 +4878,18 @@
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4562,6 +4982,18 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4647,6 +5079,18 @@
 					(unit 1)
 				)
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
 					(reference "R6")
 					(unit 1)
 				)
@@ -4745,6 +5189,23 @@
 					(unit 1)
 				)
 			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

@@ -1,0 +1,71 @@
+Plugin v0.0.1 running on KiCad 8.0.5+1 and Python 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0] on linux.
+Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb, with 25 footprints, 68 tracks, and 0 drawings.
+Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb, with 26 footprints, 203 tracks, and 0 drawings.
+
+├─ Nixie_Control3 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb)
+│  ├─ Nixie_Block2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)
+├─ Nixie_Block1 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)
+├─ Nixie_Control2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb)
+│  ├─ Nixie_Block2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)
+├─ Nixie_Control4 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb)
+│  ├─ Nixie_Block2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)
+├─ Nixie_Control1 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb)
+│  ├─ Nixie_Block2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)
+├─ Pico_Conn
+├─ Nixie_Boost
+├─ Nixie_Control (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb)
+│  ├─ Nixie_Block2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)
+PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb
+  /35283213: R12
+  /cbeff445: U2
+  /8984968a: R11
+  /e5167a2b: R2
+  /ee90b50a: R6
+  /292f8b0b: U4
+  /2640f67b: R9
+  /562967db: R1
+  /91d703c0: U9
+  /d05c96cd: U7
+  /2d5a6c4f: U5
+  /d15c9fab: U3
+  /f871db25: U8
+  /7ec0a191: R5
+  /63b56e4c: R8
+  /ce40e246: R3
+  /0b11e13f: R4
+  /7f5ed6b6: U10
+  /e1d2dc4d: R10
+  /5fe547bc: R7
+  /7daca590: U1
+  /4ca53257: U12
+  /3ec8a558: U6
+  /5149259b: U11
+  /c98316c7: V1
+PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb
+  /0057eed0: U1
+  /7df06b0c/d15c9fab: U4
+  /7df06b0c/8984968a: R11
+  /7df06b0c/63b56e4c: R8
+  /7df06b0c/cbeff445: U3
+  /7df06b0c/e1d2dc4d: R10
+  /7df06b0c/e5167a2b: R2
+  /7df06b0c/7ec0a191: R5
+  /7df06b0c/5fe547bc: R7
+  /7df06b0c/91d703c0: U10
+  /7df06b0c/3ec8a558: U7
+  /7df06b0c/4ca53257: U13
+  /7df06b0c/292f8b0b: U5
+  /7df06b0c/ce40e246: R3
+  /7df06b0c/ee90b50a: R6
+  /7df06b0c/0b11e13f: R4
+  /7df06b0c/35283213: R12
+  /7df06b0c/d05c96cd: U8
+  /7df06b0c/7f5ed6b6: U11
+  /7df06b0c/f871db25: U9
+  /7df06b0c/2d5a6c4f: U6
+  /7df06b0c/7daca590: U2
+  /7df06b0c/562967db: R1
+  /7df06b0c/2640f67b: R9
+  /7df06b0c/5149259b: U12
+  /7df06b0c/c98316c7: V1
+Saved.

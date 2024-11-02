@@ -1,0 +1,54 @@
+{
+  "subpcb": {
+    "Nixie_Block.kicad_pcb": {
+      "anchor": "V1"
+    },
+    "Nixie_Control.kicad_pcb": {
+      "anchor": "V1"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/3d49473a-c419-407e-b38c-0d0a65770e14": {
+      "checked": true
+    },
+    "/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe": {
+      "checked": false
+    },
+    "/533fde0d-1575-4393-a304-4d0f69f083bc": {
+      "checked": true
+    },
+    "/5937c759-2783-41e4-ac70-9109e1e46ac7": {
+      "checked": true
+    },
+    "/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe": {
+      "checked": false
+    },
+    "/81c2040b-c2c5-41b1-9f2f-8a8d9d460681": {
+      "checked": true
+    },
+    "/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe": {
+      "checked": false
+    },
+    "/a61878f4-fb63-4398-9100-0e1bf2761067": {
+      "checked": true
+    },
+    "/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe": {
+      "checked": false
+    },
+    "/b2bd7157-68b2-45c8-9acc-5514b70f1a1b": {
+      "checked": false
+    },
+    "/c1bb63d0-0983-4b38-93d5-e35be1909e08": {
+      "checked": false
+    },
+    "/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2": {
+      "checked": true
+    },
+    "/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe": {
+      "checked": false
+    }
+  }
+}

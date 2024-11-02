@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.9,
-          "width": 0.6
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -116,7 +110,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -128,7 +122,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -177,9 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -429,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -444,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nixie_clock.kicad_pro",
+    "filename": "Nixie_Control.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -465,57 +452,14 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HV",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 0, 255)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(D1-A)": "power",
-      "Net-(Q1-D)": "power",
-      "Net-(Q1-S)": "power"
-    },
-    "netclass_patterns": [
-      {
-        "netclass": "HV",
-        "pattern": "+170V"
-      }
-    ]
+    "netclass_assignments": null,
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -583,23 +527,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -616,14 +548,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -631,14 +563,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -652,60 +576,12 @@
   },
   "sheets": [
     [
-      "87768a79-2a56-4b5f-a764-e1a4021de947",
+      "f4a86652-5693-4b74-a3d8-f50cad50d233",
       "Root"
     ],
     [
-      "e25fa4f8-0a20-4418-a3d0-fcbf589da9b2",
-      "Nixie_Control"
-    ],
-    [
       "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
       "Nixie_Block2"
-    ],
-    [
-      "a61878f4-fb63-4398-9100-0e1bf2761067",
-      "Nixie_Control1"
-    ],
-    [
-      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
-      "Nixie_Block2"
-    ],
-    [
-      "5937c759-2783-41e4-ac70-9109e1e46ac7",
-      "Nixie_Control2"
-    ],
-    [
-      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
-      "Nixie_Block2"
-    ],
-    [
-      "3d49473a-c419-407e-b38c-0d0a65770e14",
-      "Nixie_Control3"
-    ],
-    [
-      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
-      "Nixie_Block2"
-    ],
-    [
-      "81c2040b-c2c5-41b1-9f2f-8a8d9d460681",
-      "Nixie_Control4"
-    ],
-    [
-      "7df06b0c-fa5e-46fb-be10-952a84edd2fe",
-      "Nixie_Block2"
-    ],
-    [
-      "533fde0d-1575-4393-a304-4d0f69f083bc",
-      "Nixie_Block1"
-    ],
-    [
-      "c1bb63d0-0983-4b38-93d5-e35be1909e08",
-      "Nixie_Boost"
-    ],
-    [
-      "b2bd7157-68b2-45c8-9acc-5514b70f1a1b",
-      "Pico_Conn"
     ]
   ],
   "text_variables": {}
