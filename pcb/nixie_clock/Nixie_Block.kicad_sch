@@ -1470,6 +1470,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3212e350-0f3d-4721-8097-d4230c50b901")
 		)
@@ -1572,6 +1581,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9386bef1-6b72-4d70-a468-9f8be7ab2414")
 		)
@@ -1666,6 +1684,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
 			(at 22.86 132.08 0)
 			(effects
 				(font
@@ -1779,6 +1806,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a639f15c-f7ea-4d24-9df9-577f7ea84034")
 		)
@@ -1884,6 +1920,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d809218-25b5-452f-a082-45d4fc38aacf")
 		)
@@ -1978,6 +2023,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
 			(at 22.86 160.02 0)
 			(effects
 				(font
@@ -2287,6 +2341,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2a157d57-6285-4cf3-9a0c-c112064fb7da")
 		)
@@ -2483,6 +2546,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
 			(at 180.34 146.05 0)
 			(effects
 				(font
@@ -2693,6 +2765,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "RC0603FR-077K87L"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90b72e5c-4c09-4bd1-a8c1-e2c025af1f7d")
 		)
@@ -2795,6 +2876,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "RC0603FR-077K87L"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec3c2d10-01a3-406f-a405-b353cedd5740")
 		)
@@ -2889,6 +2979,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
 			(at 129.54 110.49 0)
 			(effects
 				(font
@@ -3290,6 +3389,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "111f8197-ab64-4ae3-a671-c07d095a27c2")
 		)
@@ -3394,6 +3502,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "504a4705-27a8-4bf1-8713-84ac71929b79")
 		)
@@ -3489,6 +3606,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
 			(at 180.34 132.08 0)
 			(effects
 				(font
@@ -3602,6 +3728,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "740ff542-7c26-4dd6-8c63-a9c2aec92d94")
 		)
@@ -3697,6 +3832,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
 			(at 180.34 118.11 0)
 			(effects
 				(font
@@ -4235,6 +4379,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "09d9765c-14b9-486e-a921-28dcfd75aa2d")
 		)
@@ -4331,6 +4484,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
 			(at 73.66 124.46 0)
 			(effects
 				(font
@@ -4442,6 +4604,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "837b6108-cf3b-468e-85c6-6f7fb7680684")
 		)
@@ -4539,6 +4710,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
 			(at 22.86 118.11 0)
 			(effects
 				(font
@@ -4750,6 +4930,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "614e1363-20e5-4492-b9c1-b8fac76e40a6")
 		)
@@ -4949,6 +5138,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "023f7b2e-cff7-4e6a-9db1-5f952bc46cc8")
 		)
@@ -5042,6 +5240,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
 			(at 73.66 166.37 0)
 			(effects
 				(font
@@ -5145,6 +5352,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
 			(at 180.34 104.14 0)
 			(effects
 				(font

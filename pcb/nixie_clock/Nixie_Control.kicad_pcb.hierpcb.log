@@ -1,5 +1,5 @@
-Plugin v0.0.1 running on KiCad 8.0.5+1 and Python 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0] on linux.
-Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb, with 26 footprints, 225 tracks, and 0 drawings.
+Plugin v0.0.1 running on KiCad 8.0.6+1 and Python 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0] on linux.
+Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb, with 26 footprints, 201 tracks, and 0 drawings.
 Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb, with 25 footprints, 68 tracks, and 0 drawings.
 Root (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb)
 ├─ Nixie_Block2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)

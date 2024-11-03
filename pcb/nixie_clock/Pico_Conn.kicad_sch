@@ -1539,6 +1539,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7203003"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "3cb43d36-02ca-4c87-bbd4-ae8720400367")
 		)

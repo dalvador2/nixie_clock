@@ -2865,6 +2865,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17357180"
+			(at 220.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dea45137-340d-4671-b7dc-1ad054991122")
 		)
