@@ -1,5 +1,8 @@
 {
   "subpcb": {
+    "nixie_clock.kicad_pcb": {
+      "anchor": "U14"
+    },
     "Nixie_Block.kicad_pcb": {
       "anchor": "V1"
     },
@@ -18,7 +21,7 @@
       "checked": false
     },
     "/533fde0d-1575-4393-a304-4d0f69f083bc": {
-      "checked": true
+      "checked": false
     },
     "/5937c759-2783-41e4-ac70-9109e1e46ac7": {
       "checked": true

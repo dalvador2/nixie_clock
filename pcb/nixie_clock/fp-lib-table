@@ -1,9 +1,10 @@
 (fp_lib_table
   (version 7)
   (lib (name "digikey-footprints")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/MSD42WT1G/footprints.pretty")(options "")(descr ""))
+  (lib (name "MSD42WT1G")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/MSD42WT1G/footprints.pretty")(options "")(descr ""))
   (lib (name "RPi_Pico")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/PicoW/RPi_Pico.pretty")(options "")(descr ""))
   (lib (name "750312367")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/750312367")(options "")(descr ""))
   (lib (name "LT3759EMSE")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/LT3759EMSE/LT3759EMSE.pretty")(options "")(descr ""))
   (lib (name "Package_TO_SOT_SMD")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/Package_TO_SOT_SMD.pretty")(options "")(descr ""))
+  (lib (name "TL3360AF185Q")(type "KiCad")(uri "/home/torinstorkey/Documents/kicad_lib/dk-additional-parts/TL3360AF185Q/footprints.pretty")(options "")(descr ""))
 )
