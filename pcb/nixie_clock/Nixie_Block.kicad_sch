@@ -2765,7 +2765,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "RC0603FR-077K87L"
+		(property "LCSC Part #" "C137680"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -2876,7 +2876,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "RC0603FR-077K87L"
+		(property "LCSC Part #" "C137680"
 			(at 129.54 96.52 0)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c98316c7-2b0d-4ea1-b89d-15c940055944")
 		(property "Reference" "V6"
 			(at 101.6 71.12 0)

@@ -2541,6 +2541,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C402966"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25fc929f-657d-462c-b84f-3a6d3d892ea0")
 		)
@@ -2734,6 +2743,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3282674"
 			(at 158.75 135.89 0)
 			(effects
 				(font
@@ -2954,6 +2972,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C278615"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25fc929f-657d-462c-b84f-3a6d3d892ea1")
 		)
@@ -3024,6 +3051,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2094634"
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25fc929f-657d-462c-b84f-3a6d3d892ea2")
 		)
@@ -3084,6 +3120,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C400657"
 			(at 148.59 135.89 0)
 			(effects
 				(font
@@ -3162,6 +3207,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2168251"
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be3efc83-13a1-4ed2-bcf6-ce419771cdbf")
 		)
@@ -3203,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 227.33 100.33 0)
 			(effects
 				(font
@@ -3240,6 +3294,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17550678"
 			(at 227.33 100.33 0)
 			(effects
 				(font
@@ -3384,6 +3447,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2171678"
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be3efc83-13a1-4ed2-bcf6-ce419771cdc0")
 		)
@@ -3454,6 +3526,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C6477141"
+			(at 92.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f51748d0-5502-4767-a7be-82d827294d2c")
 		)
@@ -3516,6 +3597,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3844381"
 			(at 57.15 134.62 0)
 			(effects
 				(font
@@ -3660,6 +3750,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C3842329"
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be3efc83-13a1-4ed2-bcf6-ce419771cdc2")
 		)
@@ -3720,6 +3819,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2091296"
 			(at 82.55 113.03 0)
 			(effects
 				(font
@@ -3797,6 +3905,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2170365"
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c023c275-af91-4eb9-8c3a-27ffac8948ed")
 		)
@@ -3859,6 +3976,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2977779"
 			(at 161.29 147.32 0)
 			(effects
 				(font
@@ -3995,6 +4121,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C6477141"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -4168,7 +4303,7 @@
 				)
 			)
 		)
-		(property "Value" "LT3759EMSE-TRPBF"
+		(property "Value" "LT3759EMSE#TRPBF"
 			(at 105.41 115.57 0)
 			(effects
 				(font
@@ -4186,7 +4321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LT3759EMSE-TRPBF"
+		(property "Datasheet" "LT3759EMSE#TRPBF"
 			(at 69.85 123.19 0)
 			(effects
 				(font
@@ -4197,6 +4332,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C580139"
 			(at 69.85 123.19 0)
 			(effects
 				(font
@@ -4300,6 +4444,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2179130"
 			(at 142.24 148.59 0)
 			(effects
 				(font

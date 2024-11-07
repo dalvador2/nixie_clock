@@ -1493,7 +1493,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6d63aa0c-6f6e-4725-8610-6e59edb30af6")
 		(property "Reference" "U14"
