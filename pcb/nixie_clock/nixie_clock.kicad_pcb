@@ -65503,7 +65503,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
+		(layer "User.1")
 		(uuid "67c71976-346f-42ba-90aa-74027dac39f4")
 		(pts
 			(xy 45.6 77.6) (xy 264.15 77.6)
@@ -65511,7 +65511,7 @@
 		(height -6.4)
 		(gr_text "218.5500 mm"
 			(at 154.875 69.4 0)
-			(layer "F.Cu")
+			(layer "User.1")
 			(uuid "67c71976-346f-42ba-90aa-74027dac39f4")
 			(effects
 				(font
@@ -65536,7 +65536,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
+		(layer "User.1")
 		(uuid "6b170cee-09b5-4ca2-9195-576094f794d9")
 		(pts
 			(xy 264.15 77.6) (xy 264.15 130.85)
@@ -65544,7 +65544,7 @@
 		(height -12.45)
 		(gr_text "53.2500 mm"
 			(at 274.8 104.225 90)
-			(layer "F.Cu")
+			(layer "User.1")
 			(uuid "6b170cee-09b5-4ca2-9195-576094f794d9")
 			(effects
 				(font
@@ -65934,14 +65934,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "483389b0-c242-415d-b50c-dbc65e52f877")
-	)
-	(segment
-		(start 239.5 99.475)
-		(end 239.5 98.915)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "4b15addd-af7f-4bcb-92e5-6b6747359d93")
 	)
 	(segment
 		(start 243.335 92.865)
