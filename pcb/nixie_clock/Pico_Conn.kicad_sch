@@ -801,6 +801,295 @@
 				)
 			)
 		)
+		(symbol "SKRTLAE010:SKRTLAE010"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SKRTLAE010"
+				(at -7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SKRTLAE010:SW_SKRTLAE010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "--"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "SKRTLAE010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.3 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Alpsalpine"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SKRTLAE010_0_0"
+				(rectangle
+					(start -7.62 -10.16)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "SHIELD__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1019,16 +1308,46 @@
 		)
 	)
 	(junction
+		(at 87.63 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b53c5b-72d0-4747-aff3-ec05fc7a283a")
+	)
+	(junction
+		(at 87.63 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62a22206-a006-4ef1-ae3a-d171c58f9363")
+	)
+	(junction
 		(at 166.37 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65850910-db7a-46ad-8562-c83556c1bb90")
 	)
 	(junction
+		(at 87.63 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bdff2a7-818f-49a7-91c5-fad88c43a4b8")
+	)
+	(junction
+		(at 87.63 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80000d7f-92a8-4c63-8937-c5edf5b9e519")
+	)
+	(junction
 		(at 125.73 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9abf7377-1bcd-4f83-aea3-7ad8d451b223")
+	)
+	(junction
+		(at 87.63 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87e8643-4a52-456a-b3d1-6dac9a9a93ae")
 	)
 	(junction
 		(at 125.73 96.52)
@@ -1047,6 +1366,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5ba31e4-9ddf-412e-b856-fe311dcf8337")
+	)
+	(no_connect
+		(at 113.03 74.93)
+		(uuid "0f0f83be-7da7-4506-a060-3d97485abe44")
 	)
 	(no_connect
 		(at 163.83 81.28)
@@ -1089,8 +1412,8 @@
 		(uuid "46c22d35-fbb4-4fa2-8d59-08b1f6dec072")
 	)
 	(no_connect
-		(at 128.27 76.2)
-		(uuid "48038c55-30ac-4795-a19b-dfe5e785920a")
+		(at 113.03 118.11)
+		(uuid "4ecf8b79-65eb-46fc-9bc1-b120419ed971")
 	)
 	(no_connect
 		(at 128.27 91.44)
@@ -1121,12 +1444,16 @@
 		(uuid "8ec09608-6587-405b-868f-a056eb789bf9")
 	)
 	(no_connect
-		(at 128.27 78.74)
-		(uuid "949e4494-433c-4d66-bfee-96a635ffb762")
+		(at 113.03 115.57)
+		(uuid "aa448125-df58-4af8-b81a-7b3ae239e0cd")
 	)
 	(no_connect
 		(at 163.83 71.12)
 		(uuid "ae3257d3-7de0-42b5-8f6a-19a6cbf8c2ca")
+	)
+	(no_connect
+		(at 113.03 97.79)
+		(uuid "b57bd2c8-24f6-4547-933f-0f373bddbdb0")
 	)
 	(no_connect
 		(at 128.27 99.06)
@@ -1141,8 +1468,8 @@
 		(uuid "c3f72d88-cffb-4aaf-9867-96624a0cef74")
 	)
 	(no_connect
-		(at 163.83 63.5)
-		(uuid "ca94fe87-66c3-4ec7-8838-b09e52c981e7")
+		(at 113.03 72.39)
+		(uuid "cbffcb2a-f5b4-4fba-a140-9eaa08a53fe4")
 	)
 	(no_connect
 		(at 128.27 81.28)
@@ -1153,12 +1480,12 @@
 		(uuid "f16fdfb5-06f7-4c9b-bb14-b5d9c314341e")
 	)
 	(no_connect
-		(at 163.83 66.04)
-		(uuid "fb45493c-fd40-4b98-a5d6-011e5feefe35")
+		(at 113.03 95.25)
+		(uuid "f3fd7a83-e023-40df-8e9b-bb6e91269749")
 	)
 	(no_connect
-		(at 128.27 73.66)
-		(uuid "fdfe1c20-6e70-4e2f-826e-410da5be53e3")
+		(at 163.83 66.04)
+		(uuid "fb45493c-fd40-4b98-a5d6-011e5feefe35")
 	)
 	(wire
 		(pts
@@ -1169,6 +1496,26 @@
 			(type default)
 		)
 		(uuid "147c619e-54ea-4336-be59-f2cc57a94616")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 123.19 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1723c185-6726-4f06-81a4-cf2030454eaf")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 171.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1855dcff-fdab-4a44-84f4-4f28586403cf")
 	)
 	(wire
 		(pts
@@ -1202,6 +1549,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 90.17) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acfba10-d8ea-42a8-928e-161a965f790c")
+	)
+	(wire
+		(pts
 			(xy 125.73 58.42) (xy 125.73 71.12)
 		)
 		(stroke
@@ -1209,6 +1566,16 @@
 			(type default)
 		)
 		(uuid "3c7d230c-5908-482b-b01b-62f4ec7aa297")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d834b25-9aa3-4672-ab39-bf5a97bc3244")
 	)
 	(wire
 		(pts
@@ -1222,6 +1589,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 76.2) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411b697d-2d7e-4f20-8f78-9052cba041b0")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4243544f-bd48-41b3-85d5-39aa87fd7fca")
+	)
+	(wire
+		(pts
 			(xy 125.73 96.52) (xy 128.27 96.52)
 		)
 		(stroke
@@ -1229,6 +1616,16 @@
 			(type default)
 		)
 		(uuid "439eef30-215f-4dc5-ba35-6569e9818457")
+	)
+	(wire
+		(pts
+			(xy 87.63 69.85) (xy 87.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aef582d-b5a1-449e-adb3-37915b6cac60")
 	)
 	(wire
 		(pts
@@ -1249,6 +1646,16 @@
 			(type default)
 		)
 		(uuid "60ec8e2c-b819-4939-a4d0-3719edd9b97f")
+	)
+	(wire
+		(pts
+			(xy 87.63 92.71) (xy 87.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d088dca-74e7-4fa4-9232-385c57c9439e")
 	)
 	(wire
 		(pts
@@ -1292,6 +1699,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 76.2) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec63cb6-b317-40b1-9084-1521f4623ba7")
+	)
+	(wire
+		(pts
 			(xy 163.83 58.42) (xy 166.37 58.42)
 		)
 		(stroke
@@ -1312,6 +1729,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 67.31) (xy 113.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863f4e06-d84f-43ff-ad97-1373ac6aca31")
+	)
+	(wire
+		(pts
 			(xy 171.45 53.34) (xy 163.83 53.34)
 		)
 		(stroke
@@ -1319,6 +1746,36 @@
 			(type default)
 		)
 		(uuid "8d47de84-e9af-42fd-83fe-770573af90eb")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9daba54a-39ee-41a6-bb19-59847566b837")
+	)
+	(wire
+		(pts
+			(xy 87.63 110.49) (xy 87.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a741bd62-736d-4289-a715-5d102f4a9f0b")
+	)
+	(wire
+		(pts
+			(xy 87.63 114.3) (xy 87.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac19ccc5-0683-4812-bf29-1f2fdfce40a1")
 	)
 	(wire
 		(pts
@@ -1332,6 +1789,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f72a59-9e68-41dc-ae5d-2e31d12e5fb8")
+	)
+	(wire
+		(pts
+			(xy 82.55 114.3) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62d3dc2-8d87-466c-9337-2cefd65b83f2")
+	)
+	(wire
+		(pts
 			(xy 125.73 71.12) (xy 125.73 83.82)
 		)
 		(stroke
@@ -1342,6 +1819,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd29533a-8bf7-4e30-a89d-5d43278cd5ff")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f7a258-ad6e-4941-b4ae-affd0cac7312")
+	)
+	(wire
+		(pts
 			(xy 125.73 96.52) (xy 125.73 111.76)
 		)
 		(stroke
@@ -1349,6 +1846,16 @@
 			(type default)
 		)
 		(uuid "df4bc828-e1b3-4c66-b490-d34b5dcc4112")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d7732a-9438-4301-aaf2-2156df791b21")
 	)
 	(wire
 		(pts
@@ -1407,6 +1914,209 @@
 			(justify left)
 		)
 		(uuid "ff46d5fb-3197-406d-a4e5-3b0fe748c4df")
+	)
+	(symbol
+		(lib_id "SKRTLAE010:SKRTLAE010")
+		(at 100.33 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e36d91-8ee5-418c-a720-3c8e414b1ef5")
+		(property "Reference" "S1"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRTLAE010"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SKRTLAE010:SW_SKRTLAE010"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "--"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "SKRTLAE010"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.3 mm"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alpsalpine"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C110293"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "33aa4432-02fc-484b-8394-a92f977f45c0")
+		)
+		(pin "2"
+			(uuid "7894e893-b783-4f5d-b5f5-04a3efba4016")
+		)
+		(pin "1"
+			(uuid "6f838bbd-9ab9-4cb7-acae-61375b1737a3")
+		)
+		(pin "3"
+			(uuid "53e3e7ad-1845-4390-a7c4-9f226519eaa8")
+		)
+		(pin "S1"
+			(uuid "4e3fab91-f18f-49ce-a6ef-b61bfa6c290d")
+		)
+		(instances
+			(project ""
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3024ff89-1264-40ce-ba4d-e6637c34faab")
+		(property "Reference" "#PWR0108"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bebdc470-a5e8-4530-8067-c6c75266fbc3")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1479,9 +2189,9 @@
 		(at 146.05 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d63aa0c-6f6e-4725-8610-6e59edb30af6")
 		(property "Reference" "U14"
@@ -1666,6 +2376,209 @@
 		)
 	)
 	(symbol
+		(lib_id "SKRTLAE010:SKRTLAE010")
+		(at 100.33 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78093a4b-7d17-4341-a9c9-0f89fd38b1e2")
+		(property "Reference" "S3"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRTLAE010"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SKRTLAE010:SW_SKRTLAE010"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "--"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "SKRTLAE010"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.3 mm"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alpsalpine"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C110293"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "7c435daf-90ec-4af5-9ff3-583467a249ba")
+		)
+		(pin "2"
+			(uuid "d9735cf0-c94d-49e8-ad05-5dc85aa7f6b3")
+		)
+		(pin "1"
+			(uuid "33ba6267-eed2-4fed-94b1-f873fa1c412c")
+		)
+		(pin "3"
+			(uuid "b711b10e-31e4-43f7-9f86-4ac799b9e321")
+		)
+		(pin "S1"
+			(uuid "2b14acce-38a3-4f5c-96a0-73db5953166e")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 171.45 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aabcccbc-17f8-4605-a5c5-88fac525b0e5")
+		(property "Reference" "#PWR0107"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "465d7eb3-2733-468d-ba3d-00e535b0d9ec")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 111.76 0)
 		(unit 1)
@@ -1726,6 +2639,143 @@
 			(project "nixie_clock"
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKRTLAE010:SKRTLAE010")
+		(at 100.33 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e47966d8-383c-428e-a3c4-13c21006df8e")
+		(property "Reference" "S2"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRTLAE010"
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SKRTLAE010:SW_SKRTLAE010"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "--"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "SKRTLAE010"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.3 mm"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alpsalpine"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C110293"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "96edb472-dabb-4d0c-9dd5-0c87cbc27e61")
+		)
+		(pin "2"
+			(uuid "b64fb26c-ae3f-456c-8ff4-fe9000df6065")
+		)
+		(pin "1"
+			(uuid "f31167be-0e38-4669-b914-c713552faaad")
+		)
+		(pin "3"
+			(uuid "fe162524-e41f-4a18-9db2-43aec60f27ed")
+		)
+		(pin "S1"
+			(uuid "494907ac-0285-4186-bf48-41e0b6efc39a")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/b2bd7157-68b2-45c8-9acc-5514b70f1a1b"
+					(reference "S2")
 					(unit 1)
 				)
 			)
