@@ -57215,7 +57215,7 @@
 		(path "/b2bd7157-68b2-45c8-9acc-5514b70f1a1b/6d63aa0c-6f6e-4725-8610-6e59edb30af6")
 		(sheetname "Pico_Conn")
 		(sheetfile "Pico_Conn.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -10.5 -25.5)
 			(end -10.5 -25.2)
