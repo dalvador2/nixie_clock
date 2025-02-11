@@ -393,7 +393,7 @@
 				(pin output line
 					(at -13.97 -8.89 0)
 					(length 2.54)
-					(name "Cath_8"
+					(name "Cath_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -411,7 +411,7 @@
 				(pin output line
 					(at -13.97 -6.35 0)
 					(length 2.54)
-					(name "Cath_9"
+					(name "Cath_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -429,7 +429,7 @@
 				(pin output line
 					(at -13.97 -3.81 0)
 					(length 2.54)
-					(name "Cath_0"
+					(name "Cath_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,7 +447,7 @@
 				(pin output line
 					(at -13.97 -1.27 0)
 					(length 2.54)
-					(name "Comma_R"
+					(name "Comma_L"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -465,7 +465,7 @@
 				(pin output line
 					(at 13.97 -1.27 180)
 					(length 2.54)
-					(name "Comma_L"
+					(name "Comma_R"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -483,7 +483,7 @@
 				(pin output line
 					(at 13.97 -3.81 180)
 					(length 2.54)
-					(name "Cath_1"
+					(name "Cath_0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -501,7 +501,7 @@
 				(pin output line
 					(at 13.97 -6.35 180)
 					(length 2.54)
-					(name "Cath_2"
+					(name "Cath_9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -519,7 +519,7 @@
 				(pin output line
 					(at 13.97 -8.89 180)
 					(length 2.54)
-					(name "Cath_3"
+					(name "Cath_8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -537,7 +537,7 @@
 				(pin output line
 					(at 13.97 -11.43 180)
 					(length 2.54)
-					(name "Cath_4"
+					(name "Cath_7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -555,7 +555,7 @@
 				(pin output line
 					(at 13.97 -13.97 180)
 					(length 2.54)
-					(name "Cath_5"
+					(name "Cath_6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -573,7 +573,7 @@
 				(pin output line
 					(at -13.97 -13.97 0)
 					(length 2.54)
-					(name "Cath_6"
+					(name "Cath_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -591,7 +591,7 @@
 				(pin output line
 					(at -13.97 -11.43 0)
 					(length 2.54)
-					(name "Cath_7"
+					(name "Cath_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -957,6 +957,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee9929c-9669-4b31-95e8-c135aded78d6")
+	)
+	(wire
+		(pts
 			(xy 124.46 146.05) (xy 129.54 146.05)
 		)
 		(stroke
@@ -984,6 +994,16 @@
 			(type default)
 		)
 		(uuid "8bd51d04-5c64-44ce-b256-0df48fd4ed97")
+	)
+	(wire
+		(pts
+			(xy 168.91 147.32) (xy 166.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff38cea-09c5-4434-81d8-977e4ff7902f")
 	)
 	(wire
 		(pts
@@ -1127,6 +1147,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 161.29) (xy 166.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62ee007-5e9a-4f2b-92ec-30dca2915a0c")
+	)
+	(wire
+		(pts
+			(xy 168.91 119.38) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d841239c-106a-4856-9938-8d3404642825")
+	)
+	(wire
+		(pts
 			(xy 76.2 58.42) (xy 76.2 118.11)
 		)
 		(stroke
@@ -1167,6 +1207,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4a75cd-c9a0-4a6f-8a6b-e56322934d4e")
+	)
+	(wire
+		(pts
+			(xy 168.91 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f066dda1-2c84-437a-8609-ee2e005beba0")
+	)
+	(wire
+		(pts
 			(xy 87.63 53.34) (xy 73.66 53.34)
 		)
 		(stroke
@@ -1177,19 +1237,7 @@
 	)
 	(hierarchical_label "Cath_1"
 		(shape input)
-		(at 166.37 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14d005b0-02c5-408d-b03a-c6b47e813283")
-	)
-	(hierarchical_label "Cath_9"
-		(shape input)
-		(at 36.83 119.38 180)
+		(at 36.83 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1197,9 +1245,33 @@
 			)
 			(justify right)
 		)
+		(uuid "14d005b0-02c5-408d-b03a-c6b47e813283")
+	)
+	(hierarchical_label "Cath_9"
+		(shape input)
+		(at 168.91 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "1e1880ad-65ac-411b-b7d4-7fd4e3cefebb")
 	)
 	(hierarchical_label "Comma_R"
+		(shape input)
+		(at 168.91 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "368f3ec2-946d-4296-a174-2535a9adb8e3")
+	)
+	(hierarchical_label "Comma_L"
 		(shape input)
 		(at 36.83 91.44 180)
 		(fields_autoplaced yes)
@@ -1209,11 +1281,11 @@
 			)
 			(justify right)
 		)
-		(uuid "368f3ec2-946d-4296-a174-2535a9adb8e3")
+		(uuid "3e803340-6714-497f-9fc8-7aee67237b6d")
 	)
-	(hierarchical_label "Comma_L"
+	(hierarchical_label "Cath_8"
 		(shape input)
-		(at 166.37 91.44 0)
+		(at 168.91 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1221,11 +1293,11 @@
 			)
 			(justify left)
 		)
-		(uuid "3e803340-6714-497f-9fc8-7aee67237b6d")
+		(uuid "8a2dcd50-7770-426b-9084-73f75ea5615c")
 	)
-	(hierarchical_label "Cath_8"
+	(hierarchical_label "Cath_2"
 		(shape input)
-		(at 36.83 133.35 180)
+		(at 36.83 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1233,11 +1305,11 @@
 			)
 			(justify right)
 		)
-		(uuid "8a2dcd50-7770-426b-9084-73f75ea5615c")
+		(uuid "a6df3af2-a71e-4530-93b5-b0b3eb501ed2")
 	)
-	(hierarchical_label "Cath_2"
+	(hierarchical_label "Cath_7"
 		(shape input)
-		(at 166.37 119.38 0)
+		(at 168.91 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1245,9 +1317,33 @@
 			)
 			(justify left)
 		)
-		(uuid "a6df3af2-a71e-4530-93b5-b0b3eb501ed2")
+		(uuid "ac4fd635-b678-4d3a-8338-ac5edf7bdfe5")
 	)
-	(hierarchical_label "Cath_7"
+	(hierarchical_label "Cath_0"
+		(shape input)
+		(at 168.91 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adcf8235-5115-4d3e-90ad-f178edd0dbf3")
+	)
+	(hierarchical_label "Cath_5"
+		(shape input)
+		(at 36.83 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af166523-d775-43a8-8e1c-a7a4edb7afcd")
+	)
+	(hierarchical_label "Cath_4"
 		(shape input)
 		(at 36.83 147.32 180)
 		(fields_autoplaced yes)
@@ -1257,65 +1353,29 @@
 			)
 			(justify right)
 		)
-		(uuid "ac4fd635-b678-4d3a-8338-ac5edf7bdfe5")
+		(uuid "e2bff0bd-6bc1-4b3c-b615-11938288937a")
 	)
-	(hierarchical_label "Cath_0"
+	(hierarchical_label "Cath_3"
 		(shape input)
-		(at 36.83 105.41 180)
+		(at 36.83 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
-		)
-		(uuid "adcf8235-5115-4d3e-90ad-f178edd0dbf3")
-	)
-	(hierarchical_label "Cath_5"
-		(shape input)
-		(at 166.37 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af166523-d775-43a8-8e1c-a7a4edb7afcd")
-	)
-	(hierarchical_label "Cath_4"
-		(shape input)
-		(at 166.37 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2bff0bd-6bc1-4b3c-b615-11938288937a")
-	)
-	(hierarchical_label "Cath_3"
-		(shape input)
-		(at 166.37 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
 		)
 		(uuid "fc1c9828-77c0-400c-bbb3-db7bc9d03d20")
 	)
 	(hierarchical_label "Cath_6"
 		(shape input)
-		(at 36.83 161.29 180)
+		(at 168.91 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fce9ab22-9a15-4922-87b2-7918a7b8530a")
 	)

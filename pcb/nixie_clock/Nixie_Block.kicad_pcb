@@ -272,6 +272,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "827e86ee-41ad-49f6-9237-2b9adcc3ec46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/35283213-9762-4371-b149-8824cdc0c9c0")
 		(sheetname "Root")
@@ -480,6 +493,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c750a342-eb98-41bf-a2a5-370f91def132")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -857,7 +883,7 @@
 			(at -0.6985 0.9906 180)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 16 "/Cath_0")
+			(net 28 "/Cath_1")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "5f87e201-8f66-4a06-9fb8-9e64c3210ac3")
@@ -955,6 +981,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a136f140-2127-4015-9697-24f2119f3787")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1172,6 +1211,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ded80eee-27e9-432d-ac6b-7b1da8cd4838")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e5167a2b-f9a8-4db4-881c-56d3e53eb799")
 		(sheetname "Root")
@@ -1385,6 +1437,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afc4db99-889d-44b9-a0df-1923b4523b82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ee90b50a-9a91-4235-a2f5-ae63a5eb512b")
 		(sheetname "Root")
@@ -1593,6 +1658,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdb720fe-200b-40e4-ac68-d018c33b18fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1970,7 +2048,7 @@
 			(at -0.6985 0.9906)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 20 "/Cath_8")
+			(net 32 "/Cath_3")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "ba6c34d8-e099-4b38-9c11-64e3a30794e3")
@@ -2068,6 +2146,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3eee7b79-6620-4627-a546-61662a35a470")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2285,6 +2376,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C137680"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8daff9ee-5867-4176-86e5-7f8b78686ca3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/562967db-0707-4418-9cee-4f6bfc01c557")
 		(sheetname "Root")
@@ -2493,6 +2597,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad0cf2ba-0c71-44ed-a07d-6f86a56c2d4c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2870,7 +2987,7 @@
 			(at -0.6985 0.9906 180)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 31 "/Cath_2")
+			(net 19 "/Cath_9")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "390df55f-66a7-47e5-aeea-09fb2cb58899")
@@ -2967,6 +3084,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87b69a29-a4bc-42e1-8e4b-421c1df28dbb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3344,7 +3474,7 @@
 			(at -0.6985 0.9906 180)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 27 "/Comma_L")
+			(net 15 "/Comma_R")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "224e233b-6c55-466a-8b4c-910f19250ac6")
@@ -3441,6 +3571,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "896c8a6f-c5f2-4998-8123-437c237b9ce5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3818,7 +3961,7 @@
 			(at -0.6985 0.9906)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 23 "/Cath_7")
+			(net 35 "/Cath_4")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "f6251985-a85b-4ac1-9845-9b605b67b5d5")
@@ -3915,6 +4058,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54c7f6ea-9b3b-47a6-aebf-4372c232aeb9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4292,7 +4448,7 @@
 			(at -0.6985 0.9906 180)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 19 "/Cath_9")
+			(net 31 "/Cath_2")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "41c65379-60e8-417f-8017-218519deb0b2")
@@ -4389,6 +4545,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95ed70d7-499b-4244-a96f-fd05c56658a7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4766,7 +4935,7 @@
 			(at -0.6985 0.9906 180)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 28 "/Cath_1")
+			(net 16 "/Cath_0")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "0324d98f-48c8-4a49-8f3e-68941caf2ec4")
@@ -4864,6 +5033,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "670bcca1-ff5c-4703-9ea9-4b3ab0e1af8c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5081,6 +5263,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43b9f2c6-26d0-4a08-ba9b-def78610ca9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/63b56e4c-b522-4bb7-8b01-237b10635e43")
 		(sheetname "Root")
@@ -5290,6 +5485,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "452767c1-2a4b-4d74-a548-9c423a57a04a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5507,6 +5715,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cbad28b-d7c5-406f-8f65-57e3c66b2a0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0b11e13f-2a63-473e-a7b5-e206cf17abea")
 		(sheetname "Root")
@@ -5715,6 +5936,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc9bc5e1-d86d-4693-bfd2-b6f26639f16f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6092,7 +6326,7 @@
 			(at -0.6985 0.9906)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 32 "/Cath_3")
+			(net 20 "/Cath_8")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "b560a29e-855a-404a-856c-d1fafe711b3d")
@@ -6190,6 +6424,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff00a8e7-5cf1-4eeb-8cd7-253ce2cf0ac9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6407,6 +6654,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C137680"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f30a232e-b526-49ef-b239-8c0f768c1519")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5fe547bc-77b1-4a45-bc3d-851681024372")
 		(sheetname "Root")
@@ -6615,6 +6875,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ea328c9-4e80-4739-9fc4-7585587920e5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6992,7 +7265,7 @@
 			(at -0.6985 0.9906 180)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 15 "/Comma_R")
+			(net 27 "/Comma_L")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "a72a4bdc-8aa8-4227-917b-59ae4b9928f5")
@@ -7089,6 +7362,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21be8f14-0f22-47a2-9780-81a8228b2e84")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7466,7 +7752,7 @@
 			(at -0.6985 0.9906)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 37 "/Cath_5")
+			(net 25 "/Cath_6")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "f53a8129-01c5-40a8-a9b6-32c4d48158b2")
@@ -7563,6 +7849,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "061b1c8a-3f89-4c13-a629-eaf94e0e5539")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7940,7 +8239,7 @@
 			(at -0.6985 0.9906)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 25 "/Cath_6")
+			(net 37 "/Cath_5")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "5a468ecf-533d-4867-8a05-861d468ea93e")
@@ -8037,6 +8336,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4c52df1-6f2f-470f-8cfd-a89fd76676ec")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8414,7 +8726,7 @@
 			(at -0.6985 0.9906)
 			(size 0.4572 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 35 "/Cath_4")
+			(net 23 "/Cath_7")
 			(pinfunction "BASE")
 			(pintype "unspecified")
 			(uuid "bd8967d3-1aa5-40a0-b377-d5f9a3cdc2e3")
@@ -8524,7 +8836,7 @@
 		(path "/c98316c7-2b0d-4ea1-b89d-15c940055944")
 		(sheetname "Root")
 		(sheetfile "Nixie_Block.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 9.5)
@@ -8747,7 +9059,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 26 "Net-(U7-COLLECTOR)")
-			(pinfunction "Comma_L")
+			(pinfunction "Comma_R")
 			(pintype "output")
 			(uuid "8d1f5c7f-5f8b-40d3-823d-aa5477480d8e")
 		)
@@ -8758,7 +9070,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 29 "Net-(U8-COLLECTOR)")
-			(pinfunction "Cath_1")
+			(pinfunction "Cath_0")
 			(pintype "output")
 			(uuid "7d943c0d-7a24-4b8c-b858-f89603c963d4")
 		)
@@ -8769,7 +9081,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 30 "Net-(U9-COLLECTOR)")
-			(pinfunction "Cath_2")
+			(pinfunction "Cath_9")
 			(pintype "output")
 			(uuid "417ab035-44c4-4f46-ba6c-1eae1fbb081d")
 		)
@@ -8780,7 +9092,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 33 "Net-(U10-COLLECTOR)")
-			(pinfunction "Cath_3")
+			(pinfunction "Cath_8")
 			(pintype "output")
 			(uuid "e7527194-a04c-463a-a930-d2119482b808")
 		)
@@ -8791,7 +9103,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 34 "Net-(U11-COLLECTOR)")
-			(pinfunction "Cath_4")
+			(pinfunction "Cath_7")
 			(pintype "output")
 			(uuid "42439700-a2bf-499b-85a8-313414de88c5")
 		)
@@ -8802,7 +9114,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 36 "Net-(U12-COLLECTOR)")
-			(pinfunction "Cath_5")
+			(pinfunction "Cath_6")
 			(pintype "output")
 			(uuid "2a0fb38d-56a0-40d4-87c3-c1a73237f7bd")
 		)
@@ -8813,7 +9125,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "Net-(U6-COLLECTOR)")
-			(pinfunction "Cath_6")
+			(pinfunction "Cath_5")
 			(pintype "output")
 			(uuid "8dd5e179-9c0b-4bbd-8a08-8aa0c7ba11ef")
 		)
@@ -8824,7 +9136,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "Net-(U5-COLLECTOR)")
-			(pinfunction "Cath_7")
+			(pinfunction "Cath_4")
 			(pintype "output")
 			(uuid "6cc6cf12-9287-4be8-8e4b-98f618c7ea4f")
 		)
@@ -8835,7 +9147,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 21 "Net-(U4-COLLECTOR)")
-			(pinfunction "Cath_8")
+			(pinfunction "Cath_3")
 			(pintype "output")
 			(uuid "e35a979f-32cb-45a5-bb3d-8504fa7ea2bb")
 		)
@@ -8846,7 +9158,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "Net-(U3-COLLECTOR)")
-			(pinfunction "Cath_9")
+			(pinfunction "Cath_2")
 			(pintype "output")
 			(uuid "69bd2b53-c5f7-43ba-8ea0-4d582f04522e")
 		)
@@ -8857,7 +9169,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "Net-(U2-COLLECTOR)")
-			(pinfunction "Cath_0")
+			(pinfunction "Cath_1")
 			(pintype "output")
 			(uuid "6a69b28a-551b-4955-8abb-0ce21e1169d9")
 		)
@@ -8868,7 +9180,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 14 "Net-(U1-COLLECTOR)")
-			(pinfunction "Comma_R")
+			(pinfunction "Comma_L")
 			(pintype "output")
 			(uuid "c3d6d95c-e9de-4099-b7fe-c98d948a77be")
 		)

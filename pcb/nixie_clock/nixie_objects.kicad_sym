@@ -84,7 +84,7 @@
 			(pin output line
 				(at -13.97 -8.89 0)
 				(length 2.54)
-				(name "Cath_8"
+				(name "Cath_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -102,7 +102,7 @@
 			(pin output line
 				(at -13.97 -6.35 0)
 				(length 2.54)
-				(name "Cath_9"
+				(name "Cath_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -120,7 +120,7 @@
 			(pin output line
 				(at -13.97 -3.81 0)
 				(length 2.54)
-				(name "Cath_0"
+				(name "Cath_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,7 +138,7 @@
 			(pin output line
 				(at -13.97 -1.27 0)
 				(length 2.54)
-				(name "Comma_R"
+				(name "Comma_L"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -156,7 +156,7 @@
 			(pin output line
 				(at 13.97 -1.27 180)
 				(length 2.54)
-				(name "Comma_L"
+				(name "Comma_R"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -174,7 +174,7 @@
 			(pin output line
 				(at 13.97 -3.81 180)
 				(length 2.54)
-				(name "Cath_1"
+				(name "Cath_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -192,7 +192,7 @@
 			(pin output line
 				(at 13.97 -6.35 180)
 				(length 2.54)
-				(name "Cath_2"
+				(name "Cath_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -210,7 +210,7 @@
 			(pin output line
 				(at 13.97 -8.89 180)
 				(length 2.54)
-				(name "Cath_3"
+				(name "Cath_8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,7 +228,7 @@
 			(pin output line
 				(at 13.97 -11.43 180)
 				(length 2.54)
-				(name "Cath_4"
+				(name "Cath_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,7 +246,7 @@
 			(pin output line
 				(at 13.97 -13.97 180)
 				(length 2.54)
-				(name "Cath_5"
+				(name "Cath_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -264,7 +264,7 @@
 			(pin output line
 				(at -13.97 -13.97 0)
 				(length 2.54)
-				(name "Cath_6"
+				(name "Cath_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -282,7 +282,7 @@
 			(pin output line
 				(at -13.97 -11.43 0)
 				(length 2.54)
-				(name "Cath_7"
+				(name "Cath_4"
 					(effects
 						(font
 							(size 1.27 1.27)
