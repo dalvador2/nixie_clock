@@ -1,0 +1,28 @@
+standard digit channel to digit
+0:1
+1:0
+2:9
+3:8
+4:7
+5:6
+6:5
+7:4
+8:3
+9:2
+10:comma_right
+11:comma_left
+
+final digit channel and addr to digit
+65_12:7
+65_13:6
+65_14:5
+65_15:4
+66_12:3
+66_13:2
+66_14:comma_right
+66_15:comma_left
+67_12:1
+67_13:0
+67_14:9
+67_15:8
+
