@@ -1,7 +1,7 @@
-Plugin v0.0.1 running on KiCad 8.0.6+1 and Python 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0] on linux.
+Plugin v0.0.1 running on KiCad 8.0.8+1 and Python 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux.
 Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb, with 25 footprints, 68 tracks, and 0 drawings.
+Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/nixie_clock.kicad_pcb, with 182 footprints, 1543 tracks, and 11 drawings.
 Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb, with 26 footprints, 201 tracks, and 0 drawings.
-Imported /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/nixie_clock.kicad_pcb, with 175 footprints, 1527 tracks, and 4 drawings.
 Root (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/nixie_clock.kicad_pcb)
 ├─ Nixie_Control3 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb)
 │  ├─ Nixie_Block2 (+ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Block.kicad_pcb)
@@ -42,33 +42,6 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Ni
   /3ec8a558: U6
   /5149259b: U11
   /c98316c7: V1
-PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb
-  /0057eed0: U1
-  /7df06b0c/d15c9fab: U4
-  /7df06b0c/8984968a: R11
-  /7df06b0c/63b56e4c: R8
-  /7df06b0c/cbeff445: U3
-  /7df06b0c/e1d2dc4d: R10
-  /7df06b0c/e5167a2b: R2
-  /7df06b0c/7ec0a191: R5
-  /7df06b0c/5fe547bc: R7
-  /7df06b0c/91d703c0: U10
-  /7df06b0c/3ec8a558: U7
-  /7df06b0c/4ca53257: U13
-  /7df06b0c/292f8b0b: U5
-  /7df06b0c/ce40e246: R3
-  /7df06b0c/ee90b50a: R6
-  /7df06b0c/0b11e13f: R4
-  /7df06b0c/35283213: R12
-  /7df06b0c/d05c96cd: U8
-  /7df06b0c/7f5ed6b6: U11
-  /7df06b0c/f871db25: U9
-  /7df06b0c/2d5a6c4f: U6
-  /7df06b0c/7daca590: U2
-  /7df06b0c/562967db: R1
-  /7df06b0c/2640f67b: R9
-  /7df06b0c/5149259b: U12
-  /7df06b0c/c98316c7: V1
 PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/nixie_clock.kicad_pcb
   /5937c759/7df06b0c/f871db25: U36
   /533fde0d/5fe547bc: R73
@@ -91,6 +64,7 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/ni
   /533fde0d/2640f67b: R75
   /c1bb63d0/015344fc: R63
   /a61878f4/7df06b0c/2640f67b: R21
+  /26fa5781: H1
   /5937c759/7df06b0c/292f8b0b: U32
   /e25fa4f8/7df06b0c/7ec0a191: R5
   /e25fa4f8/7df06b0c/0b11e13f: R4
@@ -144,7 +118,9 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/ni
   /81c2040b/7df06b0c/2640f67b: R57
   /e25fa4f8/7df06b0c/d15c9fab: U3
   /5937c759/7df06b0c/ee90b50a: R30
+  /14401626: H3
   /0f8d9800: J1
+  /b2bd7157/78093a4b: S3
   /a61878f4/7df06b0c/4ca53257: U27
   /5937c759/0057eed0: U28
   /c1bb63d0/525521de: C6
@@ -158,6 +134,7 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/ni
   /533fde0d/d05c96cd: U72
   /533fde0d/d15c9fab: U68
   /3d49473a/7df06b0c/f871db25: U49
+  /b2bd7157/e47966d8: S2
   /c1bb63d0/2c364727: R65
   /c1bb63d0/94705e9e: C1
   /3d49473a/7df06b0c/562967db: R37
@@ -170,6 +147,7 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/ni
   /81c2040b/7df06b0c/8984968a: R59
   /a61878f4/7df06b0c/3ec8a558: U21
   /3d49473a/7df06b0c/2d5a6c4f: U46
+  /60ea89e9: H2
   /5937c759/7df06b0c/7daca590: U29
   /533fde0d/cbeff445: U67
   /5937c759/7df06b0c/0b11e13f: R28
@@ -181,6 +159,7 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/ni
   /c1bb63d0/b107b97d: C2
   /c1bb63d0/f02bd713: C7
   /3d49473a/7df06b0c/0b11e13f: R40
+  /b2bd7157/24e36d91: S1
   /c1bb63d0/5fadf2ba: D1
   /533fde0d/7f5ed6b6: U75
   /5937c759/7df06b0c/5fe547bc: R31
@@ -204,6 +183,7 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/ni
   /533fde0d/292f8b0b: U69
   /533fde0d/e5167a2b: R67
   /a61878f4/7df06b0c/5fe547bc: R19
+  /32f2f072: H4
   /5937c759/7df06b0c/e5167a2b: R26
   /a61878f4/7df06b0c/2d5a6c4f: U20
   /533fde0d/5149259b: U76
@@ -245,3 +225,30 @@ PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/ni
   /533fde0d/c98316c7: V6
   /e25fa4f8/7df06b0c/c98316c7: V1
   /5937c759/7df06b0c/c98316c7: V3
+PCB /home/torinstorkey/Documents/nixie_tube_clock/nixie_clock/pcb/nixie_clock/Nixie_Control.kicad_pcb
+  /0057eed0: U1
+  /7df06b0c/d15c9fab: U4
+  /7df06b0c/8984968a: R11
+  /7df06b0c/63b56e4c: R8
+  /7df06b0c/cbeff445: U3
+  /7df06b0c/e1d2dc4d: R10
+  /7df06b0c/e5167a2b: R2
+  /7df06b0c/7ec0a191: R5
+  /7df06b0c/5fe547bc: R7
+  /7df06b0c/91d703c0: U10
+  /7df06b0c/3ec8a558: U7
+  /7df06b0c/4ca53257: U13
+  /7df06b0c/292f8b0b: U5
+  /7df06b0c/ce40e246: R3
+  /7df06b0c/ee90b50a: R6
+  /7df06b0c/0b11e13f: R4
+  /7df06b0c/35283213: R12
+  /7df06b0c/d05c96cd: U8
+  /7df06b0c/7f5ed6b6: U11
+  /7df06b0c/f871db25: U9
+  /7df06b0c/2d5a6c4f: U6
+  /7df06b0c/7daca590: U2
+  /7df06b0c/562967db: R1
+  /7df06b0c/2640f67b: R9
+  /7df06b0c/5149259b: U12
+  /7df06b0c/c98316c7: V1

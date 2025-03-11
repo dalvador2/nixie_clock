@@ -26728,7 +26728,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "69b8a687-ae98-4dc8-990b-ed4884b29f77")
 			(hatch full 0.508)
 			(connect_pads
@@ -33202,7 +33202,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "74c9f371-1d72-4a9e-bb51-a6e338bc83e6")
 			(hatch full 0.508)
 			(connect_pads
@@ -41844,7 +41844,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "47eb4c85-21fa-4c66-9b5c-586365527ea3")
 			(hatch full 0.508)
 			(connect_pads
@@ -65023,7 +65023,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "80e88f5a-da88-4eec-83f7-78e792797960")
 			(hatch edge 0.5)
 			(connect_pads
@@ -65477,7 +65477,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "4474f452-242f-410c-9c13-fbc51d7cbf59")
 			(hatch edge 0.5)
 			(connect_pads
@@ -65931,7 +65931,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "4a9ba07a-84e3-49b9-b3b7-5c8f275a1e9f")
 			(hatch edge 0.5)
 			(connect_pads
@@ -66385,7 +66385,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "6c6a5b11-3eda-4d83-9023-7d4c39bed666")
 			(hatch edge 0.5)
 			(connect_pads
@@ -66838,7 +66838,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "e057334f-2ea0-442d-b351-d6b2a4433e41")
 			(hatch edge 0.5)
 			(connect_pads
@@ -67292,7 +67292,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "B.Cu")
 			(uuid "75d7f4ff-f830-4085-b2a0-2dbe3cd0c3dc")
 			(hatch edge 0.5)
 			(connect_pads
@@ -67418,11 +67418,11 @@
 		(layer "User.1")
 		(uuid "67c71976-346f-42ba-90aa-74027dac39f4")
 		(pts
-			(xy 45.6 77.6) (xy 264.15 77.6)
+			(xy 39.4 78.4) (xy 257.95 78.4)
 		)
 		(height -6.4)
 		(gr_text "218.5500 mm"
-			(at 154.875 69.4 0)
+			(at 148.675 70.2 0)
 			(layer "User.1")
 			(uuid "67c71976-346f-42ba-90aa-74027dac39f4")
 			(effects
