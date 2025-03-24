@@ -7,12 +7,12 @@ assign_resources! {
         scl: PIN_21,
         sdi: PIN_20,
         nixieclk: PIN_2,
-        hv_en: PIN_3,
     },
     menu: MenuResources{
         b1: PIN_6,
         b2: PIN_7,
         b3: PIN_8,
+        hv_en: PIN_3,
     }
     ntp: NTPResources{
         pwr: PIN_23,

@@ -1,0 +1,9 @@
+nixie_state:
+	Add from datetime and from int and other utility methods to nixiestate class
+menu:
+	use closures to allow for custom display functions.
+	Impliment step in and step out functions.
+	Impliment endpoint display functions
+handler:
+	display based on menu. Either through menu mode where it goes to the active item or in normal mode where it displays based on current state.
+

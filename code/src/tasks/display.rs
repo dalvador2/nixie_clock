@@ -38,14 +38,17 @@ impl NixieState {
         Self { digits, commas }
     }
 
-    // pub fn from_usize(number: u32) -> Self {
-    //     let digits =k [0u8; 6];
-    //     for i in 0i32..6 {}
-    //     Self {
-    //         digits: digits,
-    //         commas: [false; 12],
-    //     }
-    // }
+    pub fn from_usize(number: usize) -> Self {
+        let mut digits = [0u8; 6];
+        for i in 0i32..6 {
+            digits[i] = number % 10;
+            number = number / 10;
+        }
+        Self {
+            digits,
+            commas: [false; 12],
+        }
+    }
     pub fn from_hmsc(hours: u32, mins: u32, seconds: u32, commas: [bool; 12]) -> Self {
         let digits = [
             (hours / 10) as u8,
@@ -270,9 +273,7 @@ pub async fn display(r: DisplayResources) {
     i2c_config.frequency = 1_000_000;
     let mut dev = i2c::I2c::new_async(r.peri, r.scl, r.sdi, Irqs, i2c_config);
     let mut ext_clk = Output::new(r.nixieclk, Level::Low);
-    let mut hv_en = Output::new(r.hv_en, Level::Low);
     let mut disp = Display::new(dev, digit_map, comma_map);
-    hv_en.set_high();
     ext_clk.set_low();
     disp = disp.setup().await;
     disp = disp.wipe().await;
