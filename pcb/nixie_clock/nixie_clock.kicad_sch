@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "87768a79-2a56-4b5f-a764-e1a4021de947")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,45 +83,75 @@
 				)
 			)
 			(symbol "Conn_01x06_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -143,7 +175,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -153,70 +185,40 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -328,11 +330,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -430,12 +437,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -507,7 +519,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -519,7 +531,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -550,12 +562,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -646,6 +663,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -3183,6 +3201,10 @@
 	(sheet
 		(at 114.3 95.25)
 		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3212,133 +3234,133 @@
 		)
 		(pin "SCL" input
 			(at 114.3 97.79 180)
+			(uuid "4540fa64-f3db-4332-b2cd-dd0e0ecb6a4d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4540fa64-f3db-4332-b2cd-dd0e0ecb6a4d")
 		)
 		(pin "SDA" input
 			(at 114.3 100.33 180)
+			(uuid "b5b52144-8955-474e-8b16-2bdef29054f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b5b52144-8955-474e-8b16-2bdef29054f9")
 		)
 		(pin "Bypass_14" output
 			(at 154.94 104.14 0)
+			(uuid "4a841d3d-0f1d-4c10-8e3b-a4dadf88f21e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4a841d3d-0f1d-4c10-8e3b-a4dadf88f21e")
 		)
 		(pin "Bypass_12" output
 			(at 154.94 99.06 0)
+			(uuid "996985ae-751a-46b9-a71a-c580327dcf27")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "996985ae-751a-46b9-a71a-c580327dcf27")
 		)
 		(pin "Bypass_13" output
 			(at 154.94 101.6 0)
+			(uuid "712a7445-29f1-4269-bd87-b061919d061e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "712a7445-29f1-4269-bd87-b061919d061e")
 		)
 		(pin "Bypass_15" output
 			(at 154.94 106.68 0)
+			(uuid "3259ef11-27a6-42d1-9b98-c289f1b55a23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3259ef11-27a6-42d1-9b98-c289f1b55a23")
 		)
 		(pin "A1" input
 			(at 114.3 106.68 180)
+			(uuid "b02595b7-f8e8-42c4-b488-5d523f8b3326")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b02595b7-f8e8-42c4-b488-5d523f8b3326")
 		)
 		(pin "A0" input
 			(at 114.3 105.41 180)
+			(uuid "fc33c0b3-8beb-4a87-afdb-496f6bd5d17f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fc33c0b3-8beb-4a87-afdb-496f6bd5d17f")
 		)
 		(pin "A5" input
 			(at 114.3 111.76 180)
+			(uuid "d8a61b2d-024b-4940-847b-9734d6901c05")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d8a61b2d-024b-4940-847b-9734d6901c05")
 		)
 		(pin "A3" input
 			(at 114.3 109.22 180)
+			(uuid "304ce764-a25f-47e9-b6bb-f21308154066")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "304ce764-a25f-47e9-b6bb-f21308154066")
 		)
 		(pin "A2" input
 			(at 114.3 107.95 180)
+			(uuid "fda2e565-96f7-4e7b-8a66-9ad9c6255b9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fda2e565-96f7-4e7b-8a66-9ad9c6255b9d")
 		)
 		(pin "A4" input
 			(at 114.3 110.49 180)
+			(uuid "61d61793-180a-45c1-8e7a-ec0c9e56c464")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "61d61793-180a-45c1-8e7a-ec0c9e56c464")
 		)
 		(pin "Out_En" input
 			(at 114.3 102.87 180)
+			(uuid "37326d8a-5aeb-441f-9513-0d477ccc9da2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37326d8a-5aeb-441f-9513-0d477ccc9da2")
 		)
 		(instances
 			(project "nixie_clock"
@@ -3351,6 +3373,10 @@
 	(sheet
 		(at 185.42 26.67)
 		(size 44.45 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3380,123 +3406,123 @@
 		)
 		(pin "Cath_9" input
 			(at 229.87 40.64 0)
+			(uuid "810183db-0041-4f95-9595-b51864313130")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "810183db-0041-4f95-9595-b51864313130")
 		)
 		(pin "Cath_6" input
 			(at 229.87 33.02 0)
+			(uuid "576851e3-2140-45b7-badd-5f7e5626c2ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "576851e3-2140-45b7-badd-5f7e5626c2ef")
 		)
 		(pin "Cath_8" input
 			(at 229.87 38.1 0)
+			(uuid "13f90ef4-95bd-4a84-8faf-63911774ddef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "13f90ef4-95bd-4a84-8faf-63911774ddef")
 		)
 		(pin "Cath_7" input
 			(at 229.87 35.56 0)
+			(uuid "3216e28d-52ba-49e9-8b6e-99972887ca76")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3216e28d-52ba-49e9-8b6e-99972887ca76")
 		)
 		(pin "Comma_R" input
 			(at 229.87 46.99 0)
+			(uuid "9861205e-3ad1-42ac-9781-c3d6b1119a29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9861205e-3ad1-42ac-9781-c3d6b1119a29")
 		)
 		(pin "Cath_0" input
 			(at 185.42 30.48 180)
+			(uuid "29e4bd9a-d78a-44ce-944e-78e179e5fd02")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "29e4bd9a-d78a-44ce-944e-78e179e5fd02")
 		)
 		(pin "Cath_2" input
 			(at 185.42 35.56 180)
+			(uuid "e57f1091-5c5d-4ba2-8604-d212c3812e58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e57f1091-5c5d-4ba2-8604-d212c3812e58")
 		)
 		(pin "Comma_L" input
 			(at 185.42 46.99 180)
+			(uuid "bf9c0bd6-6121-4a5f-8b16-55fa9ed7c9e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bf9c0bd6-6121-4a5f-8b16-55fa9ed7c9e5")
 		)
 		(pin "Cath_1" input
 			(at 185.42 33.02 180)
+			(uuid "349b8359-94b1-4b08-b64b-f54f050e1bee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "349b8359-94b1-4b08-b64b-f54f050e1bee")
 		)
 		(pin "Cath_3" input
 			(at 185.42 38.1 180)
+			(uuid "67d5559e-802e-4db0-bec4-01ddfd94be50")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "67d5559e-802e-4db0-bec4-01ddfd94be50")
 		)
 		(pin "Cath_4" input
 			(at 185.42 40.64 180)
+			(uuid "ac86882e-a708-4508-9e31-b7ca16438557")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ac86882e-a708-4508-9e31-b7ca16438557")
 		)
 		(pin "Cath_5" input
 			(at 229.87 30.48 0)
+			(uuid "7c1455ca-3d06-4b27-b385-2730038eef2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7c1455ca-3d06-4b27-b385-2730038eef2f")
 		)
 		(instances
 			(project "nixie_clock"
@@ -3509,6 +3535,10 @@
 	(sheet
 		(at 114.3 72.39)
 		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3538,133 +3568,133 @@
 		)
 		(pin "SCL" input
 			(at 114.3 74.93 180)
+			(uuid "4de04738-90a8-4afe-ba05-22651a6a7d2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4de04738-90a8-4afe-ba05-22651a6a7d2f")
 		)
 		(pin "SDA" input
 			(at 114.3 77.47 180)
+			(uuid "9456af58-1f0f-487a-8eac-c5c9d0d5e0c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9456af58-1f0f-487a-8eac-c5c9d0d5e0c0")
 		)
 		(pin "Bypass_14" output
 			(at 154.94 81.28 0)
+			(uuid "d9960a32-1cc2-4b12-ab05-ae684eb25e51")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9960a32-1cc2-4b12-ab05-ae684eb25e51")
 		)
 		(pin "Bypass_12" output
 			(at 154.94 76.2 0)
+			(uuid "692ac194-d8da-4257-aea7-812cb2828aca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "692ac194-d8da-4257-aea7-812cb2828aca")
 		)
 		(pin "Bypass_13" output
 			(at 154.94 78.74 0)
+			(uuid "712e4ed0-f564-4009-9854-aaf7fb21923d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "712e4ed0-f564-4009-9854-aaf7fb21923d")
 		)
 		(pin "Bypass_15" output
 			(at 154.94 83.82 0)
+			(uuid "e197c4e9-fdc5-4f7d-aceb-da4b9845006b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e197c4e9-fdc5-4f7d-aceb-da4b9845006b")
 		)
 		(pin "A1" input
 			(at 114.3 83.82 180)
+			(uuid "ebbda5a5-8d3f-4a74-8d55-ec8e86d0dd47")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ebbda5a5-8d3f-4a74-8d55-ec8e86d0dd47")
 		)
 		(pin "A0" input
 			(at 114.3 82.55 180)
+			(uuid "d8ad07aa-5839-4580-9115-12c037fc9b99")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d8ad07aa-5839-4580-9115-12c037fc9b99")
 		)
 		(pin "A5" input
 			(at 114.3 88.9 180)
+			(uuid "182f2321-d3f7-4939-927c-e09cd7006647")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "182f2321-d3f7-4939-927c-e09cd7006647")
 		)
 		(pin "A3" input
 			(at 114.3 86.36 180)
+			(uuid "a31e5e19-96ab-4ae5-b424-18cb2bd2d2cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a31e5e19-96ab-4ae5-b424-18cb2bd2d2cc")
 		)
 		(pin "A2" input
 			(at 114.3 85.09 180)
+			(uuid "413397c1-81ee-4ee9-bacc-91f989262c4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "413397c1-81ee-4ee9-bacc-91f989262c4e")
 		)
 		(pin "A4" input
 			(at 114.3 87.63 180)
+			(uuid "b7488bff-4132-4e61-a6f8-834d5d1fd1e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b7488bff-4132-4e61-a6f8-834d5d1fd1e6")
 		)
 		(pin "Out_En" input
 			(at 114.3 80.01 180)
+			(uuid "e3733a3b-820d-4e3b-a258-2bc5bff79106")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e3733a3b-820d-4e3b-a258-2bc5bff79106")
 		)
 		(instances
 			(project "nixie_clock"
@@ -3677,6 +3707,10 @@
 	(sheet
 		(at 114.3 118.11)
 		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3706,133 +3740,133 @@
 		)
 		(pin "SCL" input
 			(at 114.3 120.65 180)
+			(uuid "6cf41604-7df4-4448-92f9-4d2902c1a3c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6cf41604-7df4-4448-92f9-4d2902c1a3c8")
 		)
 		(pin "SDA" input
 			(at 114.3 123.19 180)
+			(uuid "4fc29795-a5d1-45ac-bfa5-543c494834e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4fc29795-a5d1-45ac-bfa5-543c494834e1")
 		)
 		(pin "Bypass_14" output
 			(at 154.94 127 0)
+			(uuid "e1b67967-a788-447e-a74f-b131c376b363")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e1b67967-a788-447e-a74f-b131c376b363")
 		)
 		(pin "Bypass_12" output
 			(at 154.94 121.92 0)
+			(uuid "68334a80-8864-4707-98f9-85452328c2c9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "68334a80-8864-4707-98f9-85452328c2c9")
 		)
 		(pin "Bypass_13" output
 			(at 154.94 124.46 0)
+			(uuid "c6eeeb3b-231b-491f-a243-762efb1ab13d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c6eeeb3b-231b-491f-a243-762efb1ab13d")
 		)
 		(pin "Bypass_15" output
 			(at 154.94 129.54 0)
+			(uuid "2c1ea443-a66c-4bb1-a3b3-034e4ef18408")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2c1ea443-a66c-4bb1-a3b3-034e4ef18408")
 		)
 		(pin "A1" input
 			(at 114.3 129.54 180)
+			(uuid "80186df9-0cc4-477a-baeb-bd8f341dfe80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80186df9-0cc4-477a-baeb-bd8f341dfe80")
 		)
 		(pin "A0" input
 			(at 114.3 128.27 180)
+			(uuid "e8504c37-0074-46f5-9220-da9a803105bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e8504c37-0074-46f5-9220-da9a803105bb")
 		)
 		(pin "A5" input
 			(at 114.3 134.62 180)
+			(uuid "5d823059-3901-4f69-8f6a-a9af14c286cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5d823059-3901-4f69-8f6a-a9af14c286cd")
 		)
 		(pin "A3" input
 			(at 114.3 132.08 180)
+			(uuid "46ed5f77-5bf1-4794-b9fd-a4f5684d0cd8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "46ed5f77-5bf1-4794-b9fd-a4f5684d0cd8")
 		)
 		(pin "A2" input
 			(at 114.3 130.81 180)
+			(uuid "8b60e4da-d384-4384-95eb-51a96ae24462")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8b60e4da-d384-4384-95eb-51a96ae24462")
 		)
 		(pin "A4" input
 			(at 114.3 133.35 180)
+			(uuid "2de86d76-cda4-43a8-ab10-1ca24ba288e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2de86d76-cda4-43a8-ab10-1ca24ba288e6")
 		)
 		(pin "Out_En" input
 			(at 114.3 125.73 180)
+			(uuid "a798fa64-96f8-4859-a2a0-0d1c7a17864c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a798fa64-96f8-4859-a2a0-0d1c7a17864c")
 		)
 		(instances
 			(project "nixie_clock"
@@ -3845,6 +3879,10 @@
 	(sheet
 		(at 114.3 49.53)
 		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3874,133 +3912,133 @@
 		)
 		(pin "SCL" input
 			(at 114.3 52.07 180)
+			(uuid "ee18be18-2366-45e1-a1a8-9934d3ca5f8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ee18be18-2366-45e1-a1a8-9934d3ca5f8d")
 		)
 		(pin "SDA" input
 			(at 114.3 54.61 180)
+			(uuid "96faad47-4677-4aae-b79b-638058eb0e78")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "96faad47-4677-4aae-b79b-638058eb0e78")
 		)
 		(pin "Bypass_14" output
 			(at 154.94 58.42 0)
+			(uuid "5146dab9-47a7-4691-91d3-1d2df92f0f9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5146dab9-47a7-4691-91d3-1d2df92f0f9d")
 		)
 		(pin "Bypass_12" output
 			(at 154.94 53.34 0)
+			(uuid "9b298bc5-bd87-4fd4-8e8c-c05be4279865")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9b298bc5-bd87-4fd4-8e8c-c05be4279865")
 		)
 		(pin "Bypass_13" output
 			(at 154.94 55.88 0)
+			(uuid "27230ca6-2970-4493-bd7d-6651fb0a7cfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "27230ca6-2970-4493-bd7d-6651fb0a7cfd")
 		)
 		(pin "Bypass_15" output
 			(at 154.94 60.96 0)
+			(uuid "a63bd7b5-9fb4-4338-b140-26f285beec0e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a63bd7b5-9fb4-4338-b140-26f285beec0e")
 		)
 		(pin "A1" input
 			(at 114.3 60.96 180)
+			(uuid "a816b3e6-99b4-4879-9e85-effaed88ac9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a816b3e6-99b4-4879-9e85-effaed88ac9c")
 		)
 		(pin "A0" input
 			(at 114.3 59.69 180)
+			(uuid "e1f48137-9edb-4c59-bec3-5bb1b3a48e9b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e1f48137-9edb-4c59-bec3-5bb1b3a48e9b")
 		)
 		(pin "A5" input
 			(at 114.3 66.04 180)
+			(uuid "c356bda8-56ac-4203-9361-2120332dd63d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c356bda8-56ac-4203-9361-2120332dd63d")
 		)
 		(pin "A3" input
 			(at 114.3 63.5 180)
+			(uuid "ba73c60d-b670-4905-a19d-5569e72c85e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba73c60d-b670-4905-a19d-5569e72c85e3")
 		)
 		(pin "A2" input
 			(at 114.3 62.23 180)
+			(uuid "aaa55b7e-4669-42e0-863b-86ed6f5019fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aaa55b7e-4669-42e0-863b-86ed6f5019fb")
 		)
 		(pin "A4" input
 			(at 114.3 64.77 180)
+			(uuid "ae886b11-c7ce-485e-b7a3-2aaa46867a70")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ae886b11-c7ce-485e-b7a3-2aaa46867a70")
 		)
 		(pin "Out_En" input
 			(at 114.3 57.15 180)
+			(uuid "88133e54-d43d-4116-875f-2084697fd94a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "88133e54-d43d-4116-875f-2084697fd94a")
 		)
 		(instances
 			(project "nixie_clock"
@@ -4013,6 +4051,10 @@
 	(sheet
 		(at 36.83 36.83)
 		(size 29.21 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4042,43 +4084,43 @@
 		)
 		(pin "Pi_SCL" output
 			(at 66.04 39.37 0)
+			(uuid "eae0d006-48d5-480b-83a6-415f8151a3fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eae0d006-48d5-480b-83a6-415f8151a3fc")
 		)
 		(pin "Pi_SDA" output
 			(at 66.04 41.91 0)
+			(uuid "9f6792c0-dd34-4b1f-b021-461e3bd1ba80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9f6792c0-dd34-4b1f-b021-461e3bd1ba80")
 		)
 		(pin "Nixie_Clk" output
 			(at 66.04 44.45 0)
+			(uuid "7dffa892-4c9f-483c-a39b-17efeb8da143")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7dffa892-4c9f-483c-a39b-17efeb8da143")
 		)
 		(pin "HV_EN" output
 			(at 36.83 44.45 180)
+			(uuid "ee26f6a7-2239-4504-8e38-6f60b3f7ebb0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ee26f6a7-2239-4504-8e38-6f60b3f7ebb0")
 		)
 		(instances
 			(project "nixie_clock"
@@ -4091,6 +4133,10 @@
 	(sheet
 		(at 35.56 151.13)
 		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4120,13 +4166,13 @@
 		)
 		(pin "HV_EN" input
 			(at 54.61 151.13 90)
+			(uuid "5ed66c38-3ab1-4d72-8e15-de0d4112e9bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5ed66c38-3ab1-4d72-8e15-de0d4112e9bd")
 		)
 		(instances
 			(project "nixie_clock"
@@ -4139,6 +4185,10 @@
 	(sheet
 		(at 114.3 26.67)
 		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4168,133 +4218,133 @@
 		)
 		(pin "SCL" input
 			(at 114.3 29.21 180)
+			(uuid "73c7d45f-3644-43b7-b11e-b6b5d5ff1abb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "73c7d45f-3644-43b7-b11e-b6b5d5ff1abb")
 		)
 		(pin "SDA" input
 			(at 114.3 31.75 180)
+			(uuid "e8838988-38bf-4791-a851-215386bd7ed6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e8838988-38bf-4791-a851-215386bd7ed6")
 		)
 		(pin "Bypass_14" output
 			(at 154.94 35.56 0)
+			(uuid "4ea81a46-b7d9-4651-a5e5-fb94baa5f606")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4ea81a46-b7d9-4651-a5e5-fb94baa5f606")
 		)
 		(pin "Bypass_12" output
 			(at 154.94 30.48 0)
+			(uuid "d1b0a703-77bd-403d-a436-f65c19edea99")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d1b0a703-77bd-403d-a436-f65c19edea99")
 		)
 		(pin "Bypass_13" output
 			(at 154.94 33.02 0)
+			(uuid "4129eb3c-29b8-4faa-99df-ac9ede9b8b9b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4129eb3c-29b8-4faa-99df-ac9ede9b8b9b")
 		)
 		(pin "Bypass_15" output
 			(at 154.94 38.1 0)
+			(uuid "458b8c33-b743-45de-8968-0251b506ade3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "458b8c33-b743-45de-8968-0251b506ade3")
 		)
 		(pin "A1" input
 			(at 114.3 38.1 180)
+			(uuid "faebfb99-fc71-4fb9-858e-14cd4fda7f68")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "faebfb99-fc71-4fb9-858e-14cd4fda7f68")
 		)
 		(pin "A0" input
 			(at 114.3 36.83 180)
+			(uuid "c608413d-c580-4d42-8522-2a3a0f7294b2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c608413d-c580-4d42-8522-2a3a0f7294b2")
 		)
 		(pin "A5" input
 			(at 114.3 43.18 180)
+			(uuid "ae874a62-ca63-49d8-9598-b7dc1eeb8c80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ae874a62-ca63-49d8-9598-b7dc1eeb8c80")
 		)
 		(pin "A3" input
 			(at 114.3 40.64 180)
+			(uuid "74303c0b-25b3-4012-a7de-b357949a4621")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "74303c0b-25b3-4012-a7de-b357949a4621")
 		)
 		(pin "A2" input
 			(at 114.3 39.37 180)
+			(uuid "4ba1617a-43f6-462b-8fa5-f4bb6a0add20")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4ba1617a-43f6-462b-8fa5-f4bb6a0add20")
 		)
 		(pin "A4" input
 			(at 114.3 41.91 180)
+			(uuid "b752b201-4d94-4f32-98d0-583ce4369687")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b752b201-4d94-4f32-98d0-583ce4369687")
 		)
 		(pin "Out_En" input
 			(at 114.3 34.29 180)
+			(uuid "acc5339c-3dda-482e-a007-60bf002e6d97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "acc5339c-3dda-482e-a007-60bf002e6d97")
 		)
 		(instances
 			(project "nixie_clock"
@@ -4309,4 +4359,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
