@@ -1,0 +1,5487 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "baff25a1-b7db-4f25-bc35-7192bd8c7886")
+	(paper "A4")
+	(lib_symbols
+		(symbol "2024-10-20_16-09-01:MSD42WT1G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 32.766 9.906 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MSD42WT1G"
+				(at 32.766 6.858 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+				(at -0.254 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MSD42WT1G"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MSD42WT1G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-323-3_2P2X1P35_ONS SOT-323-3_2P2X1P35_ONS-M SOT-323-3_2P2X1P35_ONS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MSD42WT1G_0_1"
+				(polyline
+					(pts
+						(xy 21.59 -7.62) (xy 43.18 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 5.08) (xy 21.59 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -7.62) (xy 43.18 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 5.08) (xy 21.59 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "EMITTER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "COLLECTOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MSD42WT1G_1_1"
+				(pin unspecified line
+					(at 13.97 -1.27 0)
+					(length 7.62)
+					(name "BASE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nixie_objects:IN14_nixie_tube"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at -9.398 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IN14_nixie_tube_0_1"
+				(rectangle
+					(start -11.43 6.35)
+					(end 11.43 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IN14_nixie_tube_1_1"
+				(pin input line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "Anode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -8.89 0)
+					(length 2.54)
+					(name "Cath_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -6.35 0)
+					(length 2.54)
+					(name "Cath_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -3.81 0)
+					(length 2.54)
+					(name "Cath_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -1.27 0)
+					(length 2.54)
+					(name "Comma_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -1.27 180)
+					(length 2.54)
+					(name "Comma_R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "Cath_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -6.35 180)
+					(length 2.54)
+					(name "Cath_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -8.89 180)
+					(length 2.54)
+					(name "Cath_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -11.43 180)
+					(length 2.54)
+					(name "Cath_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -13.97 180)
+					(length 2.54)
+					(name "Cath_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -13.97 0)
+					(length 2.54)
+					(name "Cath_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -11.43 0)
+					(length 2.54)
+					(name "Cath_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+1V1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V1"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V1\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7a0ab9-15c8-40be-afda-53f50a57ed35")
+	)
+	(wire
+		(pts
+			(xy 125.73 132.08) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bc1940-c037-4fb0-83e3-be5f04818f90")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fdddb7-2222-421b-b916-14f6dc0341f5")
+	)
+	(wire
+		(pts
+			(xy 73.66 132.08) (xy 77.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47100046-2315-475a-a36a-9aad40637277")
+	)
+	(wire
+		(pts
+			(xy 115.57 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477baead-fb64-4792-ac02-00b726154048")
+	)
+	(wire
+		(pts
+			(xy 80.01 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cb2783-29dd-4159-aff3-8f1321a094fd")
+	)
+	(wire
+		(pts
+			(xy 129.54 160.02) (xy 123.19 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef837b6-ed4e-4753-9e71-45c2fcae3dd6")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51025431-8a19-4012-88fa-0e85f82d0eec")
+	)
+	(wire
+		(pts
+			(xy 128.27 55.88) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534ffb90-1a28-4e90-b8a4-663ba2710ec8")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 115.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550d20d9-4941-4dc3-b466-e669db32a981")
+	)
+	(wire
+		(pts
+			(xy 77.47 60.96) (xy 87.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a9cdb1-7c53-45a9-adbb-5a3680691803")
+	)
+	(wire
+		(pts
+			(xy 77.47 132.08) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5d0278-e463-47c8-98db-efdd1c388136")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 78.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7a4427-7963-4614-94e0-43547b1beca8")
+	)
+	(wire
+		(pts
+			(xy 168.91 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee9929c-9669-4b31-95e8-c135aded78d6")
+	)
+	(wire
+		(pts
+			(xy 124.46 146.05) (xy 129.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822dac53-7d79-4de2-b64a-7e4132eb8226")
+	)
+	(wire
+		(pts
+			(xy 123.19 160.02) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86524725-5ff0-4e07-8eee-0337f3bc1013")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 78.74 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd51d04-5c64-44ce-b256-0df48fd4ed97")
+	)
+	(wire
+		(pts
+			(xy 168.91 147.32) (xy 166.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff38cea-09c5-4434-81d8-977e4ff7902f")
+	)
+	(wire
+		(pts
+			(xy 80.01 160.02) (xy 80.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94aa9981-a08d-47bd-b969-7d0331b8b2c5")
+	)
+	(wire
+		(pts
+			(xy 125.73 60.96) (xy 115.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f5bc67-43ea-44b2-8015-68f34a51ab55")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa2c0d8-77ec-4349-bdfe-94f66a698ce6")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab047c1d-1ee7-4b20-b5e9-02f8c693d00b")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4d9468-8be8-497c-8fbc-9c66c64e670e")
+	)
+	(wire
+		(pts
+			(xy 129.54 90.17) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeff0d87-4254-4f04-a73e-2e5e252e04ce")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 74.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3280e97-c4e4-4448-999b-2ba87f8d5e95")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8039742-d20b-420a-8e02-ed3911399740")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9289e5f-9ad1-4510-870e-62a2dbede6e5")
+	)
+	(wire
+		(pts
+			(xy 115.57 55.88) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa3509d-9791-4af9-a546-2eb9096b5969")
+	)
+	(wire
+		(pts
+			(xy 129.54 132.08) (xy 125.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7fcb84-829a-47c7-8d39-bda882c10d68")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf8799c-6491-4dd9-bac7-0ce053376768")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d042c588-5abe-4f55-8634-be0bd855d08e")
+	)
+	(wire
+		(pts
+			(xy 73.66 160.02) (xy 80.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54b284a-540c-416c-bc10-8b8d9eb7236c")
+	)
+	(wire
+		(pts
+			(xy 168.91 161.29) (xy 166.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62ee007-5e9a-4f2b-92ec-30dca2915a0c")
+	)
+	(wire
+		(pts
+			(xy 168.91 119.38) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d841239c-106a-4856-9938-8d3404642825")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 76.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03f9bd9-f070-48e6-8020-d49ff587d4a0")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 73.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bf0748-ba42-4356-9b5d-2f196a5462de")
+	)
+	(wire
+		(pts
+			(xy 74.93 104.14) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c973a3-6042-4556-b9bc-d7465e2820ee")
+	)
+	(wire
+		(pts
+			(xy 73.66 146.05) (xy 78.74 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec20b39e-fbc8-4762-83e5-56b9d98bedd9")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4a75cd-c9a0-4a6f-8a6b-e56322934d4e")
+	)
+	(wire
+		(pts
+			(xy 168.91 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f066dda1-2c84-437a-8609-ee2e005beba0")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 73.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08d609d-60b1-46a4-bac2-3a13944cd15b")
+	)
+	(hierarchical_label "Cath_1"
+		(shape input)
+		(at 36.83 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14d005b0-02c5-408d-b03a-c6b47e813283")
+	)
+	(hierarchical_label "Cath_9"
+		(shape input)
+		(at 168.91 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e1880ad-65ac-411b-b7d4-7fd4e3cefebb")
+	)
+	(hierarchical_label "Comma_R"
+		(shape input)
+		(at 168.91 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "368f3ec2-946d-4296-a174-2535a9adb8e3")
+	)
+	(hierarchical_label "Comma_L"
+		(shape input)
+		(at 36.83 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e803340-6714-497f-9fc8-7aee67237b6d")
+	)
+	(hierarchical_label "Cath_8"
+		(shape input)
+		(at 168.91 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a2dcd50-7770-426b-9084-73f75ea5615c")
+	)
+	(hierarchical_label "Cath_2"
+		(shape input)
+		(at 36.83 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6df3af2-a71e-4530-93b5-b0b3eb501ed2")
+	)
+	(hierarchical_label "Cath_7"
+		(shape input)
+		(at 168.91 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac4fd635-b678-4d3a-8338-ac5edf7bdfe5")
+	)
+	(hierarchical_label "Cath_0"
+		(shape input)
+		(at 168.91 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adcf8235-5115-4d3e-90ad-f178edd0dbf3")
+	)
+	(hierarchical_label "Cath_5"
+		(shape input)
+		(at 36.83 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af166523-d775-43a8-8e1c-a7a4edb7afcd")
+	)
+	(hierarchical_label "Cath_4"
+		(shape input)
+		(at 36.83 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2bff0bd-6bc1-4b3c-b615-11938288937a")
+	)
+	(hierarchical_label "Cath_3"
+		(shape input)
+		(at 36.83 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc1c9828-77c0-400c-bbb3-db7bc9d03d20")
+	)
+	(hierarchical_label "Cath_6"
+		(shape input)
+		(at 168.91 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fce9ab22-9a15-4922-87b2-7918a7b8530a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00c57ca0-5a30-4eba-a058-c9a4c2e1e9d6")
+		(property "Reference" "#PWR077"
+			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.596 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5d455ec-5555-40d5-86be-7c8a519fb2e5")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b11e13f-2a63-473e-a7b5-e206cf17abea")
+		(property "Reference" "R69"
+			(at 68.072 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 68.326 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3212e350-0f3d-4721-8097-d4230c50b901")
+		)
+		(pin "1"
+			(uuid "eb61c549-d3aa-4a09-85e2-e1d580b97dca")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2640f67b-abb6-4d94-9f74-4ada10a614eb")
+		(property "Reference" "R75"
+			(at 135.128 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 134.874 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.318 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9386bef1-6b72-4d70-a468-9f8be7ab2414")
+		)
+		(pin "1"
+			(uuid "36163d8e-0043-4e77-940e-7cbe83aa8974")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R75")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 22.86 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "292f8b0b-ec0e-4a14-bb72-f2826c8ea4de")
+		(property "Reference" "U69"
+			(at 55.245 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 55.245 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 22.606 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 22.86 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ee825813-3e73-4160-83f9-ad1f3f57e101")
+		)
+		(pin "2"
+			(uuid "967e47d1-28d9-4ff3-be65-77c79bcd22c6")
+		)
+		(pin "1"
+			(uuid "13feb3e6-af53-48e9-b70e-56bb7fe09ceb")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U69")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U45")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U32")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U58")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 22.86 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5a6c4f-8c8e-4893-ae8f-2f40834ff904")
+		(property "Reference" "U70"
+			(at 55.245 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 55.245 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 22.606 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 22.86 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a639f15c-f7ea-4d24-9df9-577f7ea84034")
+		)
+		(pin "2"
+			(uuid "a9b0cfb0-e7fd-4685-b481-290873a2b955")
+		)
+		(pin "1"
+			(uuid "89577317-d57e-4f2e-905d-6be8d7e7fe0b")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U70")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U46")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U33")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U59")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 166.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35283213-9762-4371-b149-8824cdc0c9c0")
+		(property "Reference" "R78"
+			(at 135.128 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 134.874 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.318 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d809218-25b5-452f-a082-45d4fc38aacf")
+		)
+		(pin "1"
+			(uuid "1844f368-2c9f-46f6-b53a-c06ae9dbfe92")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R78")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 22.86 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec8a558-0e91-4b8e-b533-93d321a00ef3")
+		(property "Reference" "U71"
+			(at 55.245 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 55.245 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 22.606 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 22.86 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7155cfd-02e3-4161-b4f4-2ed3b0232f10")
+		)
+		(pin "2"
+			(uuid "e042637c-bb8e-458b-b92f-c89bb45c0397")
+		)
+		(pin "1"
+			(uuid "8e4e475d-28d6-4b14-83dd-e1e4e20f4af3")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U71")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U47")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U34")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U60")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41d90240-8143-474f-a2b4-d19a2f682ee5")
+		(property "Reference" "#PWR078"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.596 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c515c21-8d99-41e1-b774-efafd488e119")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "456cc605-e0c7-4969-a3f1-1b60c0b5b008")
+		(property "Reference" "#PWR087"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.604 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b37fe464-0923-4751-9fc6-c142abc316e9")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 180.34 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca53257-3cc7-4d53-98a8-7809e8684c75")
+		(property "Reference" "U77"
+			(at 147.955 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 147.955 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 180.594 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 180.34 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2a157d57-6285-4cf3-9a0c-c112064fb7da")
+		)
+		(pin "2"
+			(uuid "6b352215-cb5c-4f1b-a7e3-d155e0b45151")
+		)
+		(pin "1"
+			(uuid "35dcbaf5-4d70-4ac8-9ca5-44ff71ce79c0")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U77")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U53")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U40")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U78")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U27")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50045051-3558-4602-9bc2-f85dc6f6629c")
+		(property "Reference" "#PWR085"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.604 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdb3025c-850d-4f30-aa12-034a2fa07492")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 180.34 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5149259b-77af-47c6-a2a0-f720e2417ea7")
+		(property "Reference" "U76"
+			(at 147.955 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 147.955 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 180.594 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 180.34 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ae8e016-d05c-40d9-a029-1c0f4893e04c")
+		)
+		(pin "2"
+			(uuid "1052baa1-b987-4d75-a826-d9354553b7d2")
+		)
+		(pin "1"
+			(uuid "21078d20-17c5-4d5a-9342-28a0d3d9eb5e")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U76")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U52")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U39")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U65")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V1")
+		(at 101.6 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53f1caf4-5420-4912-bceb-42d3d906cc56")
+		(property "Reference" "#PWR082"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+170V"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57dc541b-6ea4-4754-a1c1-8ac8ae058dc1")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "562967db-0707-4418-9cee-4f6bfc01c557")
+		(property "Reference" "R66"
+			(at 68.072 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7K87"
+			(at 68.326 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C137680"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90b72e5c-4c09-4bd1-a8c1-e2c025af1f7d")
+		)
+		(pin "1"
+			(uuid "9fa2095a-01d2-4fa0-beb6-023ff7c7b795")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fe547bc-77b1-4a45-bc3d-851681024372")
+		(property "Reference" "R73"
+			(at 135.128 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7K87"
+			(at 134.874 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.318 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C137680"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec3c2d10-01a3-406f-a405-b353cedd5740")
+		)
+		(pin "1"
+			(uuid "8d942429-228f-474a-a8fd-302d254355c4")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63b56e4c-b522-4bb7-8b01-237b10635e43")
+		(property "Reference" "R74"
+			(at 135.128 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 134.874 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.318 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8662eed7-6a5d-4c11-b721-fc9f7c9311f3")
+		)
+		(pin "1"
+			(uuid "e0cb1547-e611-4917-bc8e-2a2e3700c31f")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d5566cb-5cf8-46e5-8557-64879547b670")
+		(property "Reference" "#PWR081"
+			(at 73.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.596 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4988defa-32be-4194-86c8-6616c84ee538")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7228dfd5-48d5-410d-8b9f-3a47f7ed6a94")
+		(property "Reference" "#PWR080"
+			(at 73.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.596 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfbb604d-866c-4d95-ad13-1aed6b857b8d")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79bf92a4-0371-4702-a9e0-feee88ebe540")
+		(property "Reference" "#PWR076"
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.596 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0c74655-55eb-40c1-991c-363e10a30142")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 22.86 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7daca590-7c65-45cb-a1ec-afdba8b8dd4d")
+		(property "Reference" "U66"
+			(at 55.245 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 55.245 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 22.606 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 22.86 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "111f8197-ab64-4ae3-a671-c07d095a27c2")
+		)
+		(pin "2"
+			(uuid "901cb4ec-abfe-440a-a1c1-13282ee0903b")
+		)
+		(pin "1"
+			(uuid "7094b7d1-7f69-41b1-a404-f8f24db73536")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U66")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U42")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U29")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U55")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ec0a191-96dc-410b-ac8b-46119fa2e61f")
+		(property "Reference" "R70"
+			(at 68.072 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 68.326 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "504a4705-27a8-4bf1-8713-84ac71929b79")
+		)
+		(pin "1"
+			(uuid "f3d386cd-6c83-44bd-9a8b-ca44edc2e55c")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 180.34 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f5ed6b6-4cb4-4093-905e-fd9b0b4dfbcb")
+		(property "Reference" "U75"
+			(at 147.955 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 147.955 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 180.594 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 180.34 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6dbb4d87-5611-42c5-ab9d-7440e5b797cb")
+		)
+		(pin "2"
+			(uuid "e94dbe77-64c5-4411-b494-75fc7a760781")
+		)
+		(pin "1"
+			(uuid "da82bffd-4089-44e0-b8e0-27fc42ebe11e")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U75")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U51")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U38")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U64")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8984968a-7e0b-4ee1-adfc-3ca99c89def4")
+		(property "Reference" "R77"
+			(at 135.128 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 134.874 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.318 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "740ff542-7c26-4dd6-8c63-a9c2aec92d94")
+		)
+		(pin "1"
+			(uuid "55e01f5e-d114-4833-a5fc-ece227885151")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 180.34 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d703c0-d7af-49b5-8127-956967d7a9ea")
+		(property "Reference" "U74"
+			(at 147.955 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 147.955 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 180.594 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 180.34 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b7ad15a-6829-41d2-88cc-39b3bf3ae31a")
+		)
+		(pin "2"
+			(uuid "49f71c68-301a-48d1-9523-922073762054")
+		)
+		(pin "1"
+			(uuid "76958564-8f57-42f6-aff1-a77dd8d06521")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U74")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U50")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U37")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U63")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U24")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ec9051f-6923-40c8-a8f2-db1d33fb4469")
+		(property "Reference" "#PWR079"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.596 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5b150cb-6ac5-4788-bb57-052545b23c23")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8586b09-9ef1-47da-9aa0-bf51820a114b")
+		(property "Reference" "#PWR088"
+			(at 129.54 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.604 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba768979-3c33-402d-88cd-a8fe447b37cc")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb522bc6-f917-4be1-9a06-a0d1f1e0604d")
+		(property "Reference" "#PWR083"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.604 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "098b7295-55ee-470f-9ee6-809e2772f264")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nixie_objects:IN14_nixie_tube")
+		(at 101.6 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c98316c7-2b0d-4ea1-b89d-15c940055944")
+		(property "Reference" "V6"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN14"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Nixie_Stuff:IN14"
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "d7eb99a6-d32e-4db4-9799-a881d3408b0d")
+		)
+		(pin "13"
+			(uuid "453e24e2-ec7a-4027-8452-8daf2971d0ce")
+		)
+		(pin "2"
+			(uuid "3ebcef29-7d6c-44ca-a403-04e1a5ea7966")
+		)
+		(pin "8"
+			(uuid "7c8dc8a9-cb32-41a8-a6e1-c1113d7360ef")
+		)
+		(pin "9"
+			(uuid "5279ef98-85d2-45b8-8e99-042b086817ff")
+		)
+		(pin "3"
+			(uuid "428e14e6-0526-4c00-86b9-1e57cd4c4e0e")
+		)
+		(pin "5"
+			(uuid "aead6f28-8734-494c-b33c-ea70fceff738")
+		)
+		(pin "7"
+			(uuid "e71b3c29-f41d-4215-b06f-8fc23070aa95")
+		)
+		(pin "4"
+			(uuid "f3f8792f-1a2e-40fd-b540-9f0a68b65692")
+		)
+		(pin "1"
+			(uuid "7b7c321d-f088-4022-b86f-bd5a3468fa27")
+		)
+		(pin "11"
+			(uuid "12e0beaa-2f1b-480e-bdf8-81ea4c97cbc0")
+		)
+		(pin "10"
+			(uuid "95a119f0-5430-4f28-80ce-89e1e28d3e5c")
+		)
+		(pin "6"
+			(uuid "a81940cb-e78d-4ea5-9f65-e824c4698de2")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "V6")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "V4")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "V3")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "V5")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "V2")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 22.86 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbeff445-1ef1-41dc-a261-8f763165a235")
+		(property "Reference" "U67"
+			(at 55.245 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 55.245 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 22.606 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 22.86 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "09d9765c-14b9-486e-a921-28dcfd75aa2d")
+		)
+		(pin "2"
+			(uuid "e743ff72-ca20-4da3-8ec4-39dfbe2e257a")
+		)
+		(pin "1"
+			(uuid "cf2eeb40-7328-4ccf-808a-0403ab658ebc")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U67")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U43")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U30")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U56")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce40e246-75c0-4ad7-abee-a3aef3630319")
+		(property "Reference" "R68"
+			(at 68.072 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 68.326 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0412fb10-cafb-4d19-908c-a4ff1fb598e4")
+		)
+		(pin "1"
+			(uuid "f8dc22b9-eef3-465e-a7dc-f919da1b5c55")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 180.34 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d05c96cd-2ca3-40d2-8c0b-26a55309dc91")
+		(property "Reference" "U72"
+			(at 147.955 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 147.955 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 180.594 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 180.34 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "837b6108-cf3b-468e-85c6-6f7fb7680684")
+		)
+		(pin "2"
+			(uuid "f8adf202-fccb-427b-8eb1-f4421444b408")
+		)
+		(pin "1"
+			(uuid "0a040f63-4218-4284-85d6-35ffe97e66d1")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U72")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U48")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U35")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U61")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 22.86 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d15c9fab-4e86-4962-a769-ececd126b7a1")
+		(property "Reference" "U68"
+			(at 55.245 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 55.245 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 22.606 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 22.86 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 22.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ccf5b7f5-3195-4c30-87c9-78aa2520508b")
+		)
+		(pin "2"
+			(uuid "0eb3ff1d-f55e-415a-a76d-638866386106")
+		)
+		(pin "1"
+			(uuid "f452890f-ab8e-4cca-a4c0-c9565b3d7b2d")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U68")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U44")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U31")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U57")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e050c1c5-143a-4bde-9037-94a4896db09c")
+		(property "Reference" "#PWR084"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b099bec1-d974-462e-ba0b-2969b5ddab9d")
+		)
+		(instances
+			(project ""
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR091")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1d2dc4d-3bfc-4771-a3a8-9edb8ee99b15")
+		(property "Reference" "R76"
+			(at 135.128 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 134.874 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.318 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "614e1363-20e5-4492-b9c1-b8fac76e40a6")
+		)
+		(pin "1"
+			(uuid "cf71007c-2155-422d-b169-8f0ad186d942")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e34c695f-f25e-4691-9635-3532da81d01f")
+		(property "Reference" "#PWR086"
+			(at 129.54 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.604 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af49fea8-f5da-44c4-98b4-67c81eb21c49")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5167a2b-f9a8-4db4-881c-56d3e53eb799")
+		(property "Reference" "R67"
+			(at 68.072 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 68.326 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "023f7b2e-cff7-4e6a-9db1-5f952bc46cc8")
+		)
+		(pin "1"
+			(uuid "0315c849-dc71-4a38-8730-312c06042847")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee90b50a-9a91-4235-a2f5-ae63a5eb512b")
+		(property "Reference" "R71"
+			(at 68.072 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 68.326 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 73.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6b3f135-2c62-41d2-bf87-c2837c547aec")
+		)
+		(pin "1"
+			(uuid "b1601a0f-09ea-4be3-8853-ad1a4cf6a758")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "R71")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-20_16-09-01:MSD42WT1G")
+		(at 180.34 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f871db25-7a01-4e34-a43f-05ac55fb8ccb")
+		(property "Reference" "U73"
+			(at 147.955 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MSD42WT1G"
+			(at 147.955 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-323-3_2P2X1P35_ONS"
+			(at 180.594 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MSD42WT1G"
+			(at 180.34 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C891781"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b35306b6-59a9-4d11-8bdf-accc0b350857")
+		)
+		(pin "2"
+			(uuid "ae2bf241-1ae5-4d05-85f1-20aedb79fee9")
+		)
+		(pin "1"
+			(uuid "ed1fa64c-cde4-497a-8f1b-b30dc6775441")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/533fde0d-1575-4393-a304-4d0f69f083bc"
+					(reference "U73")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/3d49473a-c419-407e-b38c-0d0a65770e14/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U49")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/5937c759-2783-41e4-ac70-9109e1e46ac7/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U36")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/81c2040b-c2c5-41b1-9f2f-8a8d9d460681/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U62")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/a61878f4-fb63-4398-9100-0e1bf2761067/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U23")
+					(unit 1)
+				)
+				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/e25fa4f8-0a20-4418-a3d0-fcbf589da9b2/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Block"
+				(path "/baff25a1-b7db-4f25-bc35-7192bd8c7886"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+			(project "Nixie_Control"
+				(path "/f4a86652-5693-4b74-a3d8-f50cad50d233/7df06b0c-fa5e-46fb-be10-952a84edd2fe"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
