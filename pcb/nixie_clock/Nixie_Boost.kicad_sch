@@ -1973,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 135.89) (xy 144.78 135.89)
+			(xy 140.97 135.89) (xy 153.67 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2360,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "bd4e9a14-5a27-464b-861b-4781535281e8")
-	)
-	(wire
-		(pts
-			(xy 152.4 135.89) (xy 153.67 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21b454a-5e68-4956-805d-545360d4b453")
 	)
 	(wire
 		(pts
@@ -3370,97 +3360,6 @@
 			(project "nixie_clock"
 				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08"
 					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 135.89 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c58b1b5-9e44-497a-b0b7-0fdb6b32379c")
-		(property "Reference" "R64"
-			(at 148.59 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20R"
-			(at 148.59 132.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C400657"
-			(at 148.59 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25fc929f-657d-462c-b84f-3a6d3d892ea3")
-		)
-		(pin "2"
-			(uuid "7ad2f3e5-7ff4-452f-b76e-e363611b487f")
-		)
-		(instances
-			(project "nixie_clock"
-				(path "/87768a79-2a56-4b5f-a764-e1a4021de947/c1bb63d0-0983-4b38-93d5-e35be1909e08"
-					(reference "R64")
 					(unit 1)
 				)
 			)
